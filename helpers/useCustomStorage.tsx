@@ -4,7 +4,6 @@ import { useStorage } from "@plasmohq/storage/hook"
 
 import { buildCSSToInject } from "./buildCSSToInject"
 import { DEFAULT_VALUES, type TStyle } from "./constants"
-import { debounce } from "./debounce"
 import { updatePageCSS } from "./updatePageCSS"
 
 export const useCustomStorage = () => {
@@ -25,15 +24,6 @@ export const useCustomStorage = () => {
   // Use it as reference
   const insertedCSSRef = useRef(css)
 
-  // Storage API is rate limited, debounce call
-  const debouncedAPICall = useRef(
-    debounce((newStyles) => {
-      // Make API call here with the debounced value
-      setStorageStyles(newStyles)
-    }, 500)
-  ).current
-  const timeoutRef = useRef(null)
-
   // Update styles if anything is saved in Storage
   useEffect(() => {
     setStyles(storageStyles)
@@ -51,19 +41,6 @@ export const useCustomStorage = () => {
     })
   }, [enabled])
 
-  // react debounced API call
-  const callStorageAPI = (newStyles) => {
-    // Clear the previous timeout
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current)
-    }
-
-    // Set a new timeout for the debounced API call
-    timeoutRef.current = setTimeout(() => {
-      debouncedAPICall(newStyles)
-    }, 500)
-  }
-
   return {
     styles,
     enabled,
@@ -71,6 +48,6 @@ export const useCustomStorage = () => {
     insertedCSSRef,
     setStyles,
     setEnabled,
-    callStorageAPI
+    setStorageStyles
   }
 }

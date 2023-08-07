@@ -3,7 +3,7 @@ import { updatePageCSS } from "~helpers/updatePageCSS"
 
 export const Button = ({
   enabled,
-  callStorageAPI,
+  setStorageStyles,
   insertedCSSRef,
   storageStyles,
   setStyles,
@@ -21,13 +21,13 @@ export const Button = ({
   const handleWCAG = () => {
     updatePageCSS(insertedCSSRef, WSAG_VALUES)
     setStyles(WSAG_VALUES)
-    callStorageAPI(WSAG_VALUES)
+    setStorageStyles(WSAG_VALUES)
     setMessage("Text spacing properties were set to WCAG values.")
   }
   const handleReset = () => {
     updatePageCSS(insertedCSSRef, null)
     setStyles(DEFAULT_VALUES)
-    callStorageAPI(DEFAULT_VALUES)
+    setStorageStyles(DEFAULT_VALUES)
     setMessage("Text spacing properties were reset.")
   }
 
