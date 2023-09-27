@@ -4,7 +4,7 @@ export const Slider = ({
   styles,
   enabled,
   setStyles,
-  callStorageAPI,
+  setStorageStyles,
   insertedCSSRef
 }) => {
   const handleInputChange = async (key, value) => {
@@ -20,7 +20,7 @@ export const Slider = ({
     setStyles(newStyles)
 
     // Debounced call to store values to browser's storage
-    callStorageAPI(newStyles)
+    setStorageStyles(newStyles)
   }
   return (
     <div className="controls-group">

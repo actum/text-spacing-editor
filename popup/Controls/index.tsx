@@ -16,7 +16,7 @@ export const Controls = () => {
     insertedCSSRef,
     setStyles,
     setEnabled,
-    callStorageAPI
+    setStorageStyles
   } = useCustomStorage()
 
   return (
@@ -27,7 +27,7 @@ export const Controls = () => {
         setStyles={setStyles}
         setEnabled={setEnabled}
         setMessage={setMessage}
-        callStorageAPI={callStorageAPI}
+        setStorageStyles={setStorageStyles}
         insertedCSSRef={insertedCSSRef}
       />
 
@@ -37,7 +37,7 @@ export const Controls = () => {
         styles={styles}
         enabled={enabled}
         setStyles={setStyles}
-        callStorageAPI={callStorageAPI}
+        setStorageStyles={setStorageStyles}
         insertedCSSRef={insertedCSSRef}
       />
     </>
