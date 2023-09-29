@@ -51,8 +51,8 @@ const Typography = () => (
 
     <p>
       Use the <strong>Enable/disable styles</strong> button to enable or disable
-      your custom styles. You can also use <code>Ctrl+Shift+X</code> (
-      <code>Command+Shift+X</code> on Mac) for this.
+      your custom styles. You can also use <code>Ctrl+Shift+F</code> (
+      <code>Command+Shift+F</code> on Mac) for this. Feel free to set your custom key shortcut in the extension settings of your browser.
     </p>
     <p>
       Use the <strong>Set WCAG values</strong> button to set all of the
