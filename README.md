@@ -1,12 +1,10 @@
 ![Commits](https://img.shields.io/github/commit-activity/y/zmrhaljiri/text-spacing-editor?label=Commits)
 ![GitHub issues](https://img.shields.io/github/issues/zmrhaljiri/text-spacing-editor)
 [![Badge License]](LICENSE.txt)
-[![Badge Mozilla]](https://addons.mozilla.org/addon/text-spacing-editor/)
-[![Badge Chrome]](https://chrome.google.com/webstore/detail/text-spacing-editor)
-[![Badge Edge]](https://microsoftedge.microsoft.com/addons/detail/text-spacing-editor)
-[![Badge Safari]](https://apps.apple.com/cz/app/text-spacing-editor)
-[![Badge Opera]](https://addons.opera.com/en/extensions/details/text-spacing-editor)
-
+[![Badge Mozilla]](https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/)
+[![Badge Chrome]](https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj)
+[![Badge Edge]](https://microsoftedge.microsoft.com/addons/detail/nhjfhffdjhbdflekgnopingdbflmgjfb)
+[![Badge Safari]](https://apps.apple.com/us/app/text-spacing-editor/id6469146607)
 
 ***
 
@@ -26,14 +24,14 @@ You can use it also as a way of testing the <a href="https://www.w3.org/WAI/WCAG
 ***
 
 <p align="center">
-<a href="https://addons.mozilla.org/addon/text-spacing-editor/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get Text Spacing Editor for Firefox"></a>
-<a href="https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj"><img src="https://user-images.githubusercontent.com/585534/107280622-91a8ea80-6a26-11eb-8d07-77c548b28665.png" alt="Get Text Spacing Editor for Chromium"></a>
-<a href="https://microsoftedge.microsoft.com/addons/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj"><img src="https://user-images.githubusercontent.com/585534/107280673-a5ece780-6a26-11eb-9cc7-9fa9f9f81180.png" alt="Get Text Spacing Editor for Microsoft Edge"></a>
-<a href="https://addons.opera.com/extensions/details/text-spacing-editor/"><img src="https://user-images.githubusercontent.com/585534/107280692-ac7b5f00-6a26-11eb-85c7-088926504452.png" alt="Get Text Spacing Editor for Opera"></a>
-<a href="https://addons.thunderbird.net/thunderbird/addon/text-spacing-editor/"><img src="https://user-images.githubusercontent.com/124740436/235314672-73243149-3683-4407-a2d5-ad0f2b08bc17.png" alt="Get Text Spacing Editor for Thunderbird"></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get the Text Spacing Editor addon for Firefox"></a>
+<a href="https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj"><img src="https://user-images.githubusercontent.com/585534/107280622-91a8ea80-6a26-11eb-8d07-77c548b28665.png" alt="Text Spacing Editor available in the Chrome Web Store"></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/nhjfhffdjhbdflekgnopingdbflmgjfb"><img src="https://user-images.githubusercontent.com/585534/107280673-a5ece780-6a26-11eb-9cc7-9fa9f9f81180.png" alt="Get Text Spacing Editor for Microsoft Edge"></a>
+<a href="https://apps.apple.com/us/app/text-spacing-editor/id6469146607"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download Text Spacing Editor on the App Store" height="64"></a>
 </p>
 
-
+<p>Note: Get the <a href="https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj">Text Spacing Editor for Opera from Chrome Web Store</a>.</p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://forums.opera.com/topic/16609/very-long-extension-moderation-process/408">Opera is no longer moderating their extensions</a> but allows you to install Chrome extensions.</p>
 ***
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
