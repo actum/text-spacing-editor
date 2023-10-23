@@ -4,6 +4,7 @@
 [![Badge Chrome]](https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj)
 [![Badge Mozilla]](https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/)
 [![Badge Edge]](https://microsoftedge.microsoft.com/addons/detail/nhjfhffdjhbdflekgnopingdbflmgjfb)
+[![Badge Apple]](https://img.shields.io/itunes/v/6469146607?label=Safari%20Extension&link=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Ftext-spacing-editor%2Fid6469146607)
 
 <h1 align="center">
     <sub>
