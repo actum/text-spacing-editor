@@ -31,14 +31,18 @@ export const useCustomStorage = () => {
   }, [storageStyles])
 
   // Listen for shortcut message
+  const callback = (message) => {
+    if (message === "toggle") {
+      const payload = enabled ? null : storageStyles
+      updatePageCSS(insertedCSSRef, payload)
+      setEnabled((prev: boolean) => !prev)
+    }
+  }
+
   useEffect(() => {
-    chrome.runtime.onMessage.addListener((message) => {
-      if (message === "toggle") {
-        const payload = enabled ? null : storageStyles
-        updatePageCSS(insertedCSSRef, payload)
-        setEnabled((prev: boolean) => !prev)
-      }
-    })
+    chrome.runtime.onMessage.addListener(callback)
+
+    return () => chrome.runtime.onMessage.removeListener(callback)
   }, [enabled])
 
   return {
