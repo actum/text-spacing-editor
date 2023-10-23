@@ -1,4 +1,4 @@
-![Commits](https://img.shields.io/github/commit-activity/y/zmrhaljiri/text-spacing-editor?label=Commits)
+![Commits](https://img.shields.io/github/commit-activity/y/actum/text-spacing-editor?label=Commits)
 ![GitHub issues](https://img.shields.io/github/issues/zmrhaljiri/text-spacing-editor)
 [![Badge License]](LICENSE.txt)
 [![Badge Chrome]](https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj)
