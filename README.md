@@ -4,7 +4,7 @@
 [![Badge Chrome]](https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj)
 [![Badge Mozilla]](https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/)
 [![Badge Edge]](https://microsoftedge.microsoft.com/addons/detail/nhjfhffdjhbdflekgnopingdbflmgjfb)
-[![Badge Apple]](https://img.shields.io/itunes/v/6469146607?label=Safari%20Extension&link=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Ftext-spacing-editor%2Fid6469146607)
+[![Badge Apple]](https://apps.apple.com/us/app/text-spacing-editor/id6469146607)
 
 <h1 align="center">
     <sub>
@@ -83,3 +83,4 @@ Build with plasmo, packed with `pack.sh` script and distributed to web stores ma
 [Badge Chrome]: https://img.shields.io/chrome-web-store/users/amnelgbfbdlfjeaobejkfmjjnmeddaoj.svg?label=Chrome%20users
 [Badge Edge]: https://img.shields.io/badge/dynamic/json?label=Edge%20users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fnhjfhffdjhbdflekgnopingdbflmgjfb
 [Badge Mozilla]: https://img.shields.io/amo/users/text-spacing-editor-actum.svg?label=Firefox%20users
+[Badge Safari]: https://img.shields.io/itunes/v/6469146607?label=Safari%20Extension&link=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Ftext-spacing-editor%2Fid6469146607
