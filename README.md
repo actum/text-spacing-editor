@@ -1,12 +1,9 @@
 ![Commits](https://img.shields.io/github/commit-activity/y/zmrhaljiri/text-spacing-editor?label=Commits)
 ![GitHub issues](https://img.shields.io/github/issues/zmrhaljiri/text-spacing-editor)
 [![Badge License]](LICENSE.txt)
-[![Badge Mozilla]](https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/)
 [![Badge Chrome]](https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj)
+[![Badge Mozilla]](https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/)
 [![Badge Edge]](https://microsoftedge.microsoft.com/addons/detail/nhjfhffdjhbdflekgnopingdbflmgjfb)
-[![Badge Safari]](https://apps.apple.com/us/app/text-spacing-editor/id6469146607)
-
-***
 
 <h1 align="center">
     <sub>
@@ -15,23 +12,21 @@
     Text Spacing Editor
 </h1>
 
-***
 <p align="center">
 A browser extension that allows you to set custom values for the following text spacing properties: Line height, letter spacing, word spacing, and paragraph spacing.
 You can use it also as a way of testing the <a href="https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">WCAG success criterion 1.4.12 - Text Spacing</a>.
 </p>
 
-***
-
 <p align="center">
-<a href="https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get the Text Spacing Editor addon for Firefox"></a>
-<a href="https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj"><img src="https://user-images.githubusercontent.com/585534/107280622-91a8ea80-6a26-11eb-8d07-77c548b28665.png" alt="Text Spacing Editor available in the Chrome Web Store"></a>
-<a href="https://microsoftedge.microsoft.com/addons/detail/nhjfhffdjhbdflekgnopingdbflmgjfb"><img src="https://user-images.githubusercontent.com/585534/107280673-a5ece780-6a26-11eb-9cc7-9fa9f9f81180.png" alt="Get Text Spacing Editor for Microsoft Edge"></a>
+<a href="https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj"><img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/HRs9MPufa1J1h5glNhut.png" alt="Text Spacing Editor available in the Chrome Web Store" height="64"></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get the Text Spacing Editor addon for Firefox" height="64"></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/nhjfhffdjhbdflekgnopingdbflmgjfb"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get Text Spacing Editor for Microsoft Edge" height="64"></a>
 <a href="https://apps.apple.com/us/app/text-spacing-editor/id6469146607"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download Text Spacing Editor on the App Store" height="64"></a>
 </p>
 
 <p>Note: Get the <a target="_blank" rel="noopener noreferrer" href="https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj">Text Spacing Editor for Opera from Chrome Web Store</a>.</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://forums.opera.com/topic/16609/very-long-extension-moderation-process/408">Opera is no longer moderating their extensions</a> but allows you to install Chrome extensions.</p>
+
 ***
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
@@ -84,9 +79,6 @@ Build with plasmo, packed with `pack.sh` script and distributed to web stores ma
 
 <!----------------------------------[ Badges ]--------------------------------->
 [Badge License]: https://img.shields.io/badge/License-GPLv3-blue.svg
-[Badge Chrome]: https://img.shields.io/chrome-web-store/rating/amnelgbfbdlfjeaobejkfmjjnmeddaoj?label=Chrome
-[Badge Edge]: https://img.shields.io/badge/dynamic/json?label=Edge&color=brightgreen&query=%24.averageRating&suffix=%2F%35&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2___ADD___ID
-[Badge Mozilla]: https://img.shields.io/amo/rating/text-spacing-editor?label=Firefox
-[Badge Safari]: https://img.shields.io/amo/rating/text-spacing-editor?label=Safari
-[Badge Opera]: https://img.shields.io/amo/rating/text-spacing-editor?label=Opera
-
+[Badge Chrome]: https://img.shields.io/chrome-web-store/users/amnelgbfbdlfjeaobejkfmjjnmeddaoj.svg?label=Chrome%20users
+[Badge Edge]: https://img.shields.io/badge/dynamic/json?label=Edge%20users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fnhjfhffdjhbdflekgnopingdbflmgjfb
+[Badge Mozilla]: https://img.shields.io/amo/users/text-spacing-editor-actum.svg?label=Firefox%20users
