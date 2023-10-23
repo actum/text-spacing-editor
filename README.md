@@ -30,7 +30,7 @@ You can use it also as a way of testing the <a href="https://www.w3.org/WAI/WCAG
 <a href="https://apps.apple.com/us/app/text-spacing-editor/id6469146607"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download Text Spacing Editor on the App Store" height="64"></a>
 </p>
 
-<p>Note: Get the <a href="https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj">Text Spacing Editor for Opera from Chrome Web Store</a>.</p>
+<p>Note: Get the <a target="_blank" rel="noopener noreferrer" href="https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj">Text Spacing Editor for Opera from Chrome Web Store</a>.</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://forums.opera.com/topic/16609/very-long-extension-moderation-process/408">Opera is no longer moderating their extensions</a> but allows you to install Chrome extensions.</p>
 ***
 
