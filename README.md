@@ -1,5 +1,5 @@
 ![Commits](https://img.shields.io/github/commit-activity/y/actum/text-spacing-editor?label=Commits)
-![GitHub issues](https://img.shields.io/github/issues/actum/text-spacing-editor)
+![GitHub issues](https://img.shields.io/github/Issues/actum/text-spacing-editor)
 [![Badge License]](LICENSE.txt)
 [![Badge Chrome]](https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj)
 [![Badge Mozilla]](https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/)
