@@ -1,9 +1,10 @@
-![Commits](https://img.shields.io/github/commit-activity/y/zmrhaljiri/text-spacing-editor?label=Commits)
-![GitHub issues](https://img.shields.io/github/issues/zmrhaljiri/text-spacing-editor)
+![Commits](https://img.shields.io/github/commit-activity/y/actum/text-spacing-editor?label=Commits)
+![GitHub issues](https://img.shields.io/github/issues/actum/text-spacing-editor)
 [![Badge License]](LICENSE.txt)
 [![Badge Chrome]](https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj)
 [![Badge Mozilla]](https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/)
 [![Badge Edge]](https://microsoftedge.microsoft.com/addons/detail/nhjfhffdjhbdflekgnopingdbflmgjfb)
+[![Badge Safari]](https://apps.apple.com/us/app/text-spacing-editor/id6469146607)
 
 <h1 align="center">
     <sub>
@@ -82,3 +83,4 @@ Build with plasmo, packed with `pack.sh` script and distributed to web stores ma
 [Badge Chrome]: https://img.shields.io/chrome-web-store/users/amnelgbfbdlfjeaobejkfmjjnmeddaoj.svg?label=Chrome%20users
 [Badge Edge]: https://img.shields.io/badge/dynamic/json?label=Edge%20users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fnhjfhffdjhbdflekgnopingdbflmgjfb
 [Badge Mozilla]: https://img.shields.io/amo/users/text-spacing-editor-actum.svg?label=Firefox%20users
+[Badge Safari]: https://img.shields.io/badge/dynamic/json?color=blue&label=Safari%20users&query=ratingCount&url=https%3A%2F%2Fwww.rateinsight.app%2Fapi%2Fshield?appId=6469146607
