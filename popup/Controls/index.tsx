@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 import { useCustomStorage } from "~helpers/useCustomStorage"
-import { AccessibilityMessage } from "~popup/AccessibilityMessage"
+import { AlertMessage } from "~popup/AlertMessage"
 
 import { Button } from "./Button"
 import { Slider } from "./Slider"
@@ -31,7 +31,7 @@ export const Controls = () => {
         insertedCSSRef={insertedCSSRef}
       />
 
-      <AccessibilityMessage message={message} />
+      <AlertMessage message={message} />
 
       <Slider
         styles={styles}
