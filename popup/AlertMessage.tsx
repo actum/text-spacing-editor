@@ -10,7 +10,7 @@ const style: CSSProperties = {
   clip: "rect(1px, 1px, 1px, 1px)"
 }
 
-export const AccessibilityMessage: React.FC<{ message: string }> = ({
+export const AlertMessage: React.FC<{ message: string }> = ({
   message
 }) => {
   return (
