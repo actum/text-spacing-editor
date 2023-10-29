@@ -12,10 +12,11 @@ export const useCustomStorage = () => {
     v === undefined || null ? DEFAULT_VALUES : v
   )
   const [enabled, setEnabled] = useStorage<boolean>("enabled", (v) =>
-    v === undefined || null ? true : v
+    v === undefined || null ? false : v
   )
 
-  // Used for UI and injecting. Storage API is rate limited.
+  // Used for UI and injecting.
+  // Storage API is rate limited.
   const [styles, setStyles] = useState<TStyle>(storageStyles)
 
   // Init style string, for example: `* { line-height: "1" }`
@@ -27,7 +28,7 @@ export const useCustomStorage = () => {
   // Update styles if anything is saved in Storage
   useEffect(() => {
     setStyles(storageStyles)
-    updatePageCSS(insertedCSSRef, storageStyles)
+    enabled && updatePageCSS(insertedCSSRef, storageStyles)
   }, [storageStyles])
 
   // Listen for shortcut message
