@@ -56,6 +56,10 @@ summary {
   cursor: pointer;
 }
 
+details {
+  background-color: #e9e9e9;
+}
+
 details p {
   margin-top: 0;
 }
@@ -69,10 +73,36 @@ details ul {
   padding: .5rem;
 }
 
-details:hover {
-  background-color: #e9e9e9;
+button {
+  background-color: #015a9c;
+  color: white;
+  padding: 1rem 0.5rem;
+  border: 2px solid #004b82;
 }
 
+button:hover {
+  background-color: #002d4e;
+}
+
+button:focus {
+  outline-offset: 2px;
+  outline: 2px solid black;
+  background-color: #002d4e;
+}
+
+button[disabled] {
+  background-color: #4d4f51;
+  border-color: #3f4040;
+}
+
+input {
+  accent-color: #015a9c;
+}
+
+button[disabled],
+input[disabled] {
+  cursor: not-allowed;
+}
 
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
@@ -88,11 +118,33 @@ details:hover {
     }
 
     details {
+      background-color: #181818;
       border: 1px solid #e9e9e9;
       cursor: pointer;
     }
 
-    details:hover {
-      background-color: black;
+    button {
+      background-color: #015a9c;
+      color: white;
+      padding: 1rem 0.5rem;
+      border: 2px solid #0080DB;
+    }
+
+    button:hover {
+      background-color: #003359;
+    }
+
+    button:focus {
+      outline: 2px solid white;
+      background-color: #00518d;
+    }
+
+    button[disabled] {
+      background-color: #797F81;
+      border-color: #999b9c;
+    }
+
+    input {
+      accent-color: #0080db;
     }
 }
