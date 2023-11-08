@@ -16,8 +16,8 @@ export const buildCSSToInject = (css: TStyle | string, tabId: number) => {
 
   for (const [key, value] of Object.entries(css)) {
     // Default values are used for UI only!!
-    // If you inject `unset` value to DOM, you break initial styling
-    if (value === "unset") break
+    // If you inject `default` value to DOM, you break initial styling
+    if (value === "default") break
 
     // Parse style object and format CSS properties
     if (key === "paragraph-spacing") {

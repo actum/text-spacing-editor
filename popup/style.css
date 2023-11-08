@@ -1,62 +1,108 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
-    color-scheme: light dark;
+  color-scheme: light dark;
 }
 
+html,
 body {
-  color: black;
-  background: white;
-}
-
-html {
   width: 400px;
 }
 
 body {
   font-family: 'Segoe UI Web (West European)','Segoe UI','-apple-system',BlinkMacSystemFont,Roboto,'Helvetica Neue',Helvetica,Ubuntu,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
   font-size: 100%;
-  width: 400px;
+  line-height: 1.5;
+  color: #000;
+  background: #fff;
+  margin: 0;
+  padding: 0.5rem;
+  box-shadow: 0 0 0px 1px #cdcdcd inset;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   margin: 0;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
+}
+
+.icon--inline {
+  vertical-align: text-bottom;
+}
+
+.hint {
+  color: #fff;
+  background-color: #015a9c;
+  border: 2px solid #015a9c;
+  padding: .1rem .2rem;
 }
 
 .button-group {
   display: flex;
   gap: 8px;
-  margin-bottom: 1rem;
+  margin: 1.1rem 0;
 }
 
-.controls-group {
+.sliders-group {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
   margin-bottom: 1rem;
 }
 
-.controls {
+.sliders {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 10px;
+  gap: 4px;
+}
+
+.slider {
+  flex: 1;
+  accent-color: #015a9c;
+}
+
+.slider__label,
+.slider__value {
+  font-weight: bold;
+}
+
+.slider__value {
+  color: #015a9c
+}
+
+.slider__value.dimmed {
+  color: #757575;
+}
+
+.slider__controls {
+  display: flex;
+  gap: 4px;
 }
 
 code {
-  padding: 0.15rem;
-  border: 1px solid black;
+  padding: .15rem;
+  border: 1px solid #000;
   background-color: #e9e9e9;
 }
 
 details {
-  border: 1px solid black;
-}
-
-summary {
-  cursor: pointer;
-}
-
-details {
+  margin: .5rem 0;
   background-color: #e9e9e9;
 }
 
@@ -69,15 +115,30 @@ details ul {
   cursor: default;
 }
 
+summary {
+  cursor: pointer;
+  border: 2px solid #cdcdcd;
+}
+
+summary:hover {
+  background-color: #cdcdcd;
+}
+
+summary:focus {
+  outline: 2px solid black;
+  outline-offset: 2px;
+}
+
 .box {
   padding: .5rem;
 }
 
 button {
   background-color: #015a9c;
-  color: white;
-  padding: 1rem 0.5rem;
-  border: 2px solid #004b82;
+  color: #fff;
+  padding: 0.5rem;
+  border: 2px solid #015a9c;
+  outline: none;
 }
 
 button:hover {
@@ -85,18 +146,13 @@ button:hover {
 }
 
 button:focus {
+  outline: 2px solid #000;
   outline-offset: 2px;
-  outline: 2px solid black;
-  background-color: #002d4e;
 }
 
 button[disabled] {
-  background-color: #4d4f51;
-  border-color: #3f4040;
-}
-
-input {
-  accent-color: #015a9c;
+  background-color: #757575;
+  border-color: #4a4a4a;
 }
 
 button[disabled],
@@ -104,47 +160,164 @@ input[disabled] {
   cursor: not-allowed;
 }
 
+.button-slider {
+  display: inline-flex;
+  padding: .2rem;
+}
+
+.switch {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 60px;
+  height: 32px;
+  background-color: #015a9c;
+  display: block;
+  border-radius: 32px;
+  position: relative;
+  border: 2px solid #015a9c;
+}
+
+.switch:hover {
+  background-color: #003359;
+}
+
+.switch:after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: .3s;
+}
+
+.switch__input:checked + .switch:after {
+  left: calc(100% - 4px);
+  transform: translateX(-100%);
+}
+
+.switch__input:focus + .switch {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+.switch__label {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 @media (prefers-color-scheme: dark) {
-    /* Dark Mode styles go here. */
+  body {
+    color: #fff;
+    background: #333;
+    box-shadow: 0 0 0px 1px #575757 inset;
+  }
 
-    body {
-      color: white;
-      background: #333;
-    }
-    code {
-      padding: 0.15rem;
-      border: 1px solid #e9e9e9;
-      background-color: black;
-    }
+  code {
+    padding: 0.15rem;
+    border: 1px solid #e9e9e9;
+    background-color: #000;
+  }
 
-    details {
-      background-color: #181818;
-      border: 1px solid #e9e9e9;
-      cursor: pointer;
-    }
+  details {
+    background-color: #181818;
+  }
 
-    button {
-      background-color: #015a9c;
-      color: white;
-      padding: 1rem 0.5rem;
-      border: 2px solid #0080DB;
-    }
+  summary {
+    border-color: #575757;
+  }
 
-    button:hover {
-      background-color: #003359;
-    }
+  summary:hover {
+    background-color: #000;
+  }
 
-    button:focus {
-      outline: 2px solid white;
-      background-color: #00518d;
-    }
+  summary:focus {
+    border-color: #fff;
+    outline: none;
+  }
 
-    button[disabled] {
-      background-color: #797F81;
-      border-color: #999b9c;
-    }
+  button {
+    background-color: #015a9c;
+    color: #fff;
+    border-color: #0080DB;
+  }
 
-    input {
-      accent-color: #0080db;
-    }
+  button:hover {
+    background-color: #003359;
+  }
+
+  button:focus {
+    background-color: #015a9c;
+    border-color: #fff;
+    outline: none;
+  }
+
+  button[disabled] {
+    background-color: #797F81;
+    border-color: #999b9c;
+  }
+
+  .hint {
+    color: #fff;
+    background-color: #015a9c;
+    border-color: #0080db;
+  }
+
+  .slider {
+    accent-color: #0080db;
+  }
+
+  .slider__value {
+    color: #76c6ff;
+  }
+
+  .slider__value.dimmed {
+    color: #999b9c;
+  }
+
+  .switch {
+    background-color: #015a9c;
+    border-color: #0080db;
+  }
+
+  .switch:hover {
+    background-color: #003359;
+  }
+
+  .switch:after {
+    background-color: #fff;
+  }
+
+  .switch__input:focus + .switch {
+    background-color: #015a9c;
+    border-color: #fff;
+    outline: none;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .switch:after {
+    transition: 0s;
+  }
+}
+
+.high-contrast .switch:after {
+  border: 10px solid transparent;
+}
+
+.high-contrast details {
+  border: 1px solid transparent;
 }

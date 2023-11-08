@@ -12,7 +12,7 @@ export const useCustomStorage = () => {
     v === undefined || null ? DEFAULT_VALUES : v
   )
   const [enabled, setEnabled] = useStorage<boolean>("enabled", (v) =>
-    v === undefined || null ? false : v
+    v === undefined || null ? true : v
   )
 
   // Used for UI and injecting.
