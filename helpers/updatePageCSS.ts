@@ -1,6 +1,6 @@
 import { buildCSSToInject } from "./buildCSSToInject"
 
-export const updatePageCSS = async (cssRef, newStyles) => {
+export const updatePageCSS = async (cssRef, newStyles, key = "") => {
   chrome.tabs.query({ active: true, currentWindow: true }, async (tabs) => {
     if (cssRef.current) {
       const payload = buildCSSToInject(cssRef.current, tabs[0].id)
@@ -12,7 +12,7 @@ export const updatePageCSS = async (cssRef, newStyles) => {
       // Remove previously injected styles
       chrome.scripting.removeCSS(payload)
       // Inject styles into page
-      chrome.scripting.insertCSS(payload)
+      key !== "unmount" && chrome.scripting.insertCSS(payload)
 
       cssRef.current = payload.css
     }

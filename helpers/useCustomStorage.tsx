@@ -29,7 +29,11 @@ export const useCustomStorage = () => {
   useEffect(() => {
     setStyles(storageStyles)
     enabled && updatePageCSS(insertedCSSRef, storageStyles)
-  }, [storageStyles])
+
+    return () => {
+      updatePageCSS(insertedCSSRef, storageStyles, "unmount")
+    }
+  }, [storageStyles, enabled])
 
   // Listen for shortcut message
   const callback = (message) => {
