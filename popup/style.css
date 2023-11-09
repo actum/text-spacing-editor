@@ -6,6 +6,17 @@
 
 :root {
   color-scheme: light dark;
+
+  --color-text: #333;
+  --color-bg: #fff;
+  --color-primary: #015a9c;
+  --color-primary-light: #0579D1;
+  --color-secondary-light: #e9e9e9;
+  --color-secondary: #cdcdcd;
+  --color-secondary-dark: #858585;
+  --color-disabled: #757575;
+  --color-disabled-light: #4a4a4a;
+  --color-focus: #000;
 }
 
 html,
@@ -17,11 +28,11 @@ body {
   font-family: 'Segoe UI Web (West European)','Segoe UI','-apple-system',BlinkMacSystemFont,Roboto,'Helvetica Neue',Helvetica,Ubuntu,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
   font-size: 100%;
   line-height: 1.5;
-  color: #000;
-  background: #fff;
+  color: var(--color-text);
+  background: var(--color-bg);
   margin: 0;
   padding: 0.5rem;
-  box-shadow: 0 0 0px 1px #cdcdcd inset;
+  box-shadow: 0 0 0px 1px var(--color-secondary) inset;
 }
 
 .header {
@@ -47,8 +58,8 @@ h1 {
 
 .hint {
   color: #fff;
-  background-color: #015a9c;
-  border: 2px solid #015a9c;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
   padding: .1rem .2rem;
 }
 
@@ -74,8 +85,90 @@ h1 {
 
 .slider {
   flex: 1;
-  accent-color: #015a9c;
 }
+
+
+
+
+
+
+
+
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+
+.slider:focus {
+  outline: none;
+}
+
+.slider::-webkit-slider-runnable-track {
+  background-color: var(--color-secondary-light);
+  border: 1px solid var(--color-secondary-dark);
+  height: 0.5rem;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -.35rem;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  height: 1.1rem;
+  width: 1.1rem;
+  border: 2px solid var(--color-primary);
+}
+
+.slider:hover::-webkit-slider-thumb {
+  background-color: var(--color-primary-light);
+}
+
+.slider:focus::-webkit-slider-thumb {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.slider:disabled::-webkit-slider-thumb {
+  background-color: var(--color-disabled);
+  border-color: var(--color-disabled-light);
+}
+
+.slider::-moz-range-track {
+  background-color: var(--color-secondary-light);
+  border: 1px solid var(--color-secondary-dark);
+  height: 0.5rem;
+}
+
+.slider:hover::-moz-range-track {
+  background-color: var(--color-secondary);
+}
+
+.slider::-moz-range-thumb {
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+  height: 1.1rem;
+  width: 1.1rem;
+}
+
+.slider:focus::-moz-range-thumb{
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .slider__label,
 .slider__value {
@@ -83,11 +176,11 @@ h1 {
 }
 
 .slider__value {
-  color: #015a9c;
+  color: var(--color-primary);
 }
 
 .slider__value.dimmed {
-  color: #757575;
+  color: var(--color-disabled);
 }
 
 .slider__controls {
@@ -95,15 +188,9 @@ h1 {
   gap: 4px;
 }
 
-code {
-  padding: .15rem;
-  border: 1px solid #000;
-  background-color: #e9e9e9;
-}
-
 details {
   margin: .5rem 0;
-  background-color: #e9e9e9;
+  background-color: var(--color-secondary-light);
 }
 
 details p {
@@ -117,15 +204,15 @@ details ul {
 
 summary {
   cursor: pointer;
-  border: 2px solid #cdcdcd;
+  border: 2px solid var(--color-secondary-dark);
 }
 
 summary:hover {
-  background-color: #cdcdcd;
+  background-color: var(--color-secondary);
 }
 
 summary:focus {
-  outline: 2px solid black;
+  outline: 2px solid var(--color-focus);
   outline-offset: 2px;
 }
 
@@ -134,25 +221,25 @@ summary:focus {
 }
 
 button {
-  background-color: #015a9c;
+  background-color: var(--color-primary);
   color: #fff;
   padding: 0.5rem;
-  border: 2px solid #015a9c;
+  border: 2px solid var(--color-primary);
   outline: none;
 }
 
-button:hover {
-  background-color: #002d4e;
+button:not(:disabled):hover {
+  background-color: var(--color-primary-light);
 }
 
 button:focus {
-  outline: 2px solid #000;
+  outline: 2px solid var(--color-focus);
   outline-offset: 2px;
 }
 
 button[disabled] {
-  background-color: #757575;
-  border-color: #4a4a4a;
+  background-color: var(--color-disabled);
+  border-color: var(--color-disabled-light);
 }
 
 button[disabled],
@@ -170,15 +257,15 @@ input[disabled] {
   text-indent: -9999px;
   width: 60px;
   height: 32px;
-  background-color: #015a9c;
+  background-color: var(--color-secondary-light);
   display: block;
   border-radius: 32px;
   position: relative;
-  border: 2px solid #015a9c;
+  border: 2px solid var(--color-secondary-dark);
 }
 
 .switch:hover {
-  background-color: #003359;
+  background-color: var(--color-secondary);
 }
 
 .switch:after {
@@ -188,18 +275,28 @@ input[disabled] {
   left: 4px;
   width: 20px;
   height: 20px;
-  background-color: #fff;
+  background-color: var(--color-secondary-dark);
   border-radius: 20px;
   transition: .3s;
+}
+
+.switch__input:checked + .switch {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .switch__input:checked + .switch:after {
   left: calc(100% - 4px);
   transform: translateX(-100%);
+  background-color: #fff;
+}
+
+.switch__input:checked + .switch:hover {
+  background-color: var(--color-primary-light);
 }
 
 .switch__input:focus + .switch {
-  outline: 2px solid #000;
+  outline: 2px solid var(--color-focus);
   outline-offset: 2px;
 }
 
@@ -219,65 +316,44 @@ input[disabled] {
   width: 1px;
 }
 
+.high-contrast .switch:after {
+  border: 10px solid transparent;
+}
+
+.high-contrast details {
+  border: 1px solid transparent;
+}
+
 @media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #fff; /* YES */
+    --color-bg: #2B2B2B; /* YES */
+    --color-primary: #00345c;
+    --color-primary-light: #0077CC;
+    --color-secondary-light: #181818; /* YES */
+    --color-secondary: #575757; /* YES */
+    --color-secondary-dark: #7D7D7D; /* YES */
+    --color-disabled: #6F7476; /* YES */
+    --color-disabled-light: #9C9C9C; /* YES */
+    --color-focus: #fff; /* YES */
+  }
+
   body {
-    color: #fff;
-    background: #333;
-    box-shadow: 0 0 0px 1px #575757 inset;
-  }
-
-  code {
-    padding: 0.15rem;
-    border: 1px solid #e9e9e9;
-    background-color: #000;
-  }
-
-  details {
-    background-color: #181818;
-  }
-
-  summary {
-    border-color: #575757;
-  }
-
-  summary:hover {
-    background-color: #000;
-  }
-
-  summary:focus {
-    border-color: #fff;
-    outline: none;
+    box-shadow: 0 0 0px 1px var(--color-secondary) inset;
   }
 
   button {
-    background-color: #015a9c;
-    color: #fff;
-    border-color: #0080DB;
+    background-color: var(--color-primary-light);
+    border-color: var(--color-primary-light);
   }
 
-  button:hover {
-    background-color: #003359;
-  }
-
-  button:focus {
-    background-color: #015a9c;
-    border-color: #fff;
-    outline: none;
-  }
-
-  button[disabled] {
-    background-color: #797F81;
-    border-color: #999b9c;
+  button:not(:disabled):hover {
+    background-color: var(--color-primary);
   }
 
   .hint {
-    color: #fff;
-    background-color: #015a9c;
-    border-color: #0080db;
-  }
-
-  .slider {
-    accent-color: #0080db;
+    background-color: var(--color-primary-light);
+    border-color: var(--color-primary-light);
   }
 
   .slider__value {
@@ -285,26 +361,29 @@ input[disabled] {
   }
 
   .slider__value.dimmed {
-    color: #999b9c;
+    color: var(--color-disabled-light);
   }
 
-  .switch {
-    background-color: #015a9c;
-    border-color: #0080db;
+  .slider::-webkit-slider-thumb {
+    border-color: var(--color-primary-light);
+    background-color: var(--color-primary-light);
   }
 
-  .switch:hover {
-    background-color: #003359;
+  .slider:hover::-webkit-slider-thumb {
+    background-color: var(--color-primary);
   }
 
   .switch:after {
     background-color: #fff;
   }
 
-  .switch__input:focus + .switch {
-    background-color: #015a9c;
-    border-color: #fff;
-    outline: none;
+  .switch__input:checked + .switch {
+    background-color: var(--color-primary-light);
+    border-color: var(--color-primary-light);
+  }
+
+  .switch__input:checked + .switch:hover {
+    background-color: var(--color-primary);
   }
 }
 
@@ -312,12 +391,4 @@ input[disabled] {
   .switch:after {
     transition: 0s;
   }
-}
-
-.high-contrast .switch:after {
-  border: 10px solid transparent;
-}
-
-.high-contrast details {
-  border: 1px solid transparent;
 }
