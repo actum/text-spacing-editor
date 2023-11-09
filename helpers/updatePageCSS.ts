@@ -9,7 +9,11 @@ export const updatePageCSS = async (cssRef, newStyles) => {
 
     if (newStyles) {
       const payload = buildCSSToInject(newStyles, tabs[0].id)
+      // Remove previously injected styles
+      chrome.scripting.removeCSS(payload)
+      // Inject styles into page
       chrome.scripting.insertCSS(payload)
+
       cssRef.current = payload.css
     }
   })
