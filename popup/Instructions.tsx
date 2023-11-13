@@ -5,7 +5,7 @@ const Instructions = () => (
     </summary>
     <div className="box">
       <p>
-        Use the <strong className="hint">Active</strong> switcher at the top to activate or deactivate your custom text spacing properties and all controls. You can also use a key shortcut <code className="hint">Ctrl+Shift+F</code> (<code className="hint">Command+Shift+F</code> on Mac) for this. Feel free to set your custom key shortcut in the extension settings of your browser.
+        Use the <strong className="hint">Active</strong> switcher at the top to activate or deactivate your custom text spacing properties and all controls. You can also use a key shortcut <code className="hint">Ctrl+Shift+F</code> (<code className="hint">Command+Shift+F</code> on Mac) for this (feel free to set your custom key shortcut in the extension settings of your browser). Being able to toggle custom properties is handy for testing and storing custom settings.
       </p>
       <p>
         Use the <strong className="hint">Set WCAG values</strong> button to set all the custom text spacing properties to the <a href="#wcag-conformance-values">WCAG conformance values</a>.
@@ -24,7 +24,7 @@ const Instructions = () => (
           <span className="visually-hidden">Increase</span>
           <svg className="icon icon--inline" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path></svg>
         </strong>
-        {" "}buttons to set the values of the individual text spacing properties.
+        {" "}buttons (that support long-press event) to set the values of the individual text spacing properties.
       </p>
       <p>
         Use the{" "}
