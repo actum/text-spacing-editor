@@ -3,7 +3,7 @@ const AlertMessage: React.FC<{ message: string }> = ({
 }) => {
   return (
     <div>
-      <p className="visually-hidden "role="alert" id="message">
+      <p className="visually-hidden" aria-live="polite" id="message">
         {message}
       </p>
     </div>

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 
 import { useStorage } from "@plasmohq/storage/hook"
+import { Storage } from "@plasmohq/storage"
 
 import { buildCSSToInject } from "./buildCSSToInject"
 import { DEFAULT_VALUES, type TStyle } from "./constants"
@@ -8,10 +9,20 @@ import { updatePageCSS } from "./updatePageCSS"
 
 export const useCustomStorage = () => {
   // Init storage.
-  const [storageStyles, setStorageStyles] = useStorage<TStyle>("styles", (v) =>
+  const [storageStyles, setStorageStyles] = useStorage<TStyle>({
+    key: "styles",
+    instance: new Storage({
+      area: "local"
+    })
+  }, (v) =>
     v === undefined || null ? DEFAULT_VALUES : v
   )
-  const [enabled, setEnabled] = useStorage<boolean>("enabled", (v) =>
+  const [enabled, setEnabled] = useStorage<boolean>({
+    key: "enabled",
+    instance: new Storage({
+      area: "local"
+    })
+  }, (v) =>
     v === undefined || null ? true : v
   )
 
