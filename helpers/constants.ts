@@ -1,3 +1,5 @@
+import t from "./t"
+
 export type TStyle = {
   "line-height": string
   "letter-spacing": string
@@ -13,8 +15,8 @@ export const WCAG_VALUES: TStyle = {
 }
 
 export const DEFAULT_VALUES: TStyle = {
-  "line-height": "default",
-  "letter-spacing": "default",
-  "word-spacing": "default",
-  "paragraph-spacing": "default"
+  "line-height": t("valueDefault"),
+  "letter-spacing": t("valueDefault"),
+  "word-spacing": t("valueDefault"),
+  "paragraph-spacing": t("valueDefault")
 }

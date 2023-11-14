@@ -3,6 +3,7 @@ import { updatePageCSS } from "~helpers/updatePageCSS"
 import {countDecimals, roundToDecimalPlaces} from "~helpers/decimals"
 import { DEFAULT_VALUES, WCAG_VALUES } from "~helpers/constants"
 import { useLongPress } from "@uidotdev/usehooks";
+import t from "~helpers/t";
 
 const Slider = ({
   property,
@@ -37,7 +38,7 @@ const Slider = ({
     let newValue = WCAG_VALUES[property];
 
     // Subtract from or add to the value
-    if (valueRef.current !== "default") {
+    if (valueRef.current !== t("valueDefault")) {
       const decimalPlaces = countDecimals(step);
 
       if (operation === "subtract") {
@@ -86,7 +87,7 @@ const Slider = ({
         >
           {value}
           {!unitless &&
-            (value !== "default" && "em")
+            (value !== t("valueDefault") && "em")
           }
         </span>
       </div>
@@ -102,7 +103,7 @@ const Slider = ({
           {...subtractionLongPressEvents}
         >
           <svg className="icon" viewBox="0 0 24 24" ><path d="M19 13H5v-2h14v2z"></path></svg>
-          <span className="visually-hidden">{`Decrease ${label} value`}</span>
+          <span className="visually-hidden">{t("decreasePropertyValue", label)}</span>
         </button>
 
         <input
@@ -133,7 +134,7 @@ const Slider = ({
           {...additionLongPressEvents}
         >
           <svg className="icon" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path></svg>
-          <span className="visually-hidden">{`Increase ${label} value`}</span>
+          <span className="visually-hidden">{t("increasePropertyValue", label)}</span>
         </button>
 
         <button
@@ -145,7 +146,7 @@ const Slider = ({
           }}
         >
           <svg className="icon" viewBox="0 0 24 24"><path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"></path></svg>
-          <span className="visually-hidden">{`Reset ${label} value`}</span>
+          <span className="visually-hidden">{t("resetPropertyValue", label)}</span>
         </button>
       </div>
     </div>
@@ -179,7 +180,7 @@ const Sliders = ({
   const sliders = [
     {
       property: "line-height",
-      label: "Line height",
+      label: t("lineHeight"),
       min: 0,
       max: 4,
       step: 0.1,
@@ -188,7 +189,7 @@ const Sliders = ({
       unitless: true,
     }, {
       property: "letter-spacing",
-      label: "Letter spacing",
+      label: t("letterSpacing"),
       min: 0,
       max: 1,
       step: 0.01,
@@ -196,7 +197,7 @@ const Sliders = ({
       value: styles["letter-spacing"],
     }, {
       property: "word-spacing",
-      label: "Word spacing",
+      label: t("wordSpacing"),
       min: 0,
       max: 1,
       step: 0.01,
@@ -204,7 +205,7 @@ const Sliders = ({
       value: styles["word-spacing"],
     }, {
       property: "paragraph-spacing",
-      label: "Paragraph spacing",
+      label: t("paragraphSpacing"),
       min: 0,
       max: 4,
       step: 0.1,
