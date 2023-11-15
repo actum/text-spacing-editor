@@ -1,9 +1,12 @@
 {
   "name": "text-spacing-editor",
   "displayName": "Text Spacing Editor",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "A tool for editing text spacing properties on web pages. WCAG conformance information included.",
-  "contributors": ["Jiří Zmrhal", "Dmitrii Savinykh"],
+  "contributors": [
+    "Jiří Zmrhal",
+    "Dmitrii Savinykh"
+  ],
   "license": "GPL-3.0-only",
   "scripts": {
     "dev": "plasmo dev",
@@ -13,6 +16,7 @@
   },
   "dependencies": {
     "@plasmohq/storage": "^1.6.0",
+    "@uidotdev/usehooks": "^2.4.1",
     "plasmo": "0.72.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -32,7 +36,7 @@
         "id": "devs@actumdigital.com",
         "strict_min_version": "109.0"
       },
-       "gecko_android": {
+      "gecko_android": {
         "id": "devs@actumdigital.com",
         "strict_min_version": "109.0"
       }
@@ -52,7 +56,7 @@
           "chromeos": "Ctrl+Shift+F",
           "linux": "Ctrl+Shift+F"
         },
-        "description": "Enable or disable text spacing properties."
+        "description": "Enable or disable custom text spacing properties."
       }
     }
   }

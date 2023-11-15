@@ -15,17 +15,17 @@ export const buildCSSToInject = (css: TStyle | string, tabId: number) => {
   }
 
   for (const [key, value] of Object.entries(css)) {
-    // Default values are used for UI only!!
-    // If you inject `unset` value to DOM, you break initial styling
-    if (value === "unset") break
-
     // Parse style object and format CSS properties
     if (key === "paragraph-spacing") {
       paragraphStyles += `margin-bottom: ${value}em !important;`
     } else if (key !== "line-height") {
-      globalStyles += `${key}: ${value}em !important;`
+      globalStyles += `${key}: ${
+        value !== "default" ? `${value}em !important;` : `${value};`
+      }`
     } else {
-      globalStyles += `${key}: ${value} !important;`
+      globalStyles += `${key}: ${
+        value !== "default" ? `${value} !important;` : `${value};`
+      }`
     }
   }
 

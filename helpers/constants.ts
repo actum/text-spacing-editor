@@ -5,7 +5,7 @@ export type TStyle = {
   "paragraph-spacing": string
 }
 
-export const WSAG_VALUES: TStyle = {
+export const WCAG_VALUES: TStyle = {
   "line-height": "1.5",
   "letter-spacing": "0.12",
   "word-spacing": "0.16",
@@ -13,8 +13,8 @@ export const WSAG_VALUES: TStyle = {
 }
 
 export const DEFAULT_VALUES: TStyle = {
-  "line-height": "unset",
-  "letter-spacing": "unset",
-  "word-spacing": "unset",
-  "paragraph-spacing": "unset"
+  "line-height": "default",
+  "letter-spacing": "default",
+  "word-spacing": "default",
+  "paragraph-spacing": "default"
 }
