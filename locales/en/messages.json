@@ -1,0 +1,119 @@
+{
+  "extensionName": {
+    "message": "Text Spacing Editor"
+  },
+  "extensionDescription": {
+    "message": "A tool for editing text spacing properties on web pages. WCAG conformance information included."
+  },
+  "toggleCommand": {
+    "message": "Enable or disable custom text spacing properties.",
+    "description": "A description of the keyboard shortcut in a browser."
+  },
+  "buttonSetWCAGValues": {
+    "message": "Set WCAG values"
+  },
+  "buttonResetAllValues": {
+    "message": "Reset all values"
+  },
+  "valueDefault": {
+    "message": "default",
+    "description": "Default text spacing properties value."
+  },
+  "lineHeight": {
+    "message": "Line height"
+  },
+  "letterSpacing": {
+    "message": "Letter spacing"
+  },
+  "wordSpacing": {
+    "message": "Word spacing"
+  },
+  "paragraphSpacing": {
+    "message": "Paragraph spacing"
+  },
+  "active": {
+    "message": "Active"
+  },
+  "decreasePropertyValue": {
+    "message": "Decrease $PROPERTY$ value",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "increasePropertyValue": {
+    "message": "Increase $PROPERTY$ value",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetPropertyValue": {
+    "message": "Reset $PROPERTY$ value",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "propertiesWereEnabledDisabled": {
+    "message": "Custom text spacing properties were $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "enabled": {
+    "message": "enabled"
+  },
+  "disabled": {
+    "message": "disabled"
+  },
+  "propertiesWereSetToWCAG": {
+    "message": "Custom text spacing properties were set to WCAG values."
+  },
+  "propertiesWereResetToDefaults": {
+    "message": "Custom text spacing properties were reset to their default values."
+  },
+  "propertyWasResetToDefault": {
+    "message": "Custom $PROPERTY$ was reset to its default value.",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "instructionsForUsage": {
+    "message": "How to use Text Spacing Editor?"
+  },
+  "instructionsForActive": {
+    "message": "Use the <strong class='hint'>Active</strong> switcher at the top to activate or deactivate your custom text spacing properties and all interactive controls of this extension. You can also use a key shortcut <code class='hint'>Ctrl+Shift+F</code> (<code class='hint'>Command+Shift+F</code> on Mac) for this (feel free to set your custom key shortcut in the extension settings of your browser). Being able to toggle custom properties is handy for testing and storing custom settings."
+  },
+  "instructionsForWCAGButton": {
+    "message": "Use the <strong class='hint'>Set WCAG values</strong> button to set all the custom text spacing properties to the <a href='#wcag-conformance-values'>WCAG conformance values</a>."
+  },
+  "instructionsForResetAllButton": {
+    "message": "Use the <strong class='hint'>Reset all values</strong> button to reset all the text spacing properties to their default values."
+  },
+  "instructionsForSliders": {
+    "message": "Use either the <strong class='hint'>sliders</strong> or the <strong class='hint'><span class='visually-hidden'>Decrease</span><svg class='icon icon--inline' viewBox='0 0 24 24' ><path d='M19 13H5v-2h14v2z'></path></svg></strong> and <strong class='hint'><span class='visually-hidden'>Increase</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'></path></svg></strong> buttons (that support long-press event) to set the values of the individual text spacing properties."
+  },
+  "instructionsForReset": {
+    "message": "Use the <strong class='hint'><span class='visually-hidden'>Reset</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong> button to reset the values of the individual text spacing properties."
+  },
+  "instructionsForIframe": {
+    "message": "Text Spacing Editor supports iframes (also nested) on the <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>same origin</a>."
+  },
+  "instructionsForWCAGOne": {
+    "message": "You can use Text Spacing Editor to test <a href='https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html' target='_blank' rel='noopener noreferrer'>WCAG criterion <strong>1.4.12 - Text Spacing - AA</strong></a> that says the following:"
+  },
+  "instructionsForWCAGTwo": {
+    "message": "No loss of content or functionality occurs by setting all of these properties to the following values:"
+  },
+  "instructionsForWCAGConformance": {
+    "message": "<ul id='wcag-conformance-values'><li><em>Line height</em> to at least <em>1.5</em> times the font size.</li><li><em>Letter spacing</em> to at least <em>0.12</em> times the font size.</li><li><em>Word spacing</em> to at least <em>0.16</em> times the font size.</li><li><em>Spacing following paragraphs</em> to at least <em>2</em> times the font size.</li></ul>"
+  }
+}

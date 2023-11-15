@@ -1,3 +1,5 @@
+import t from "~helpers/t";
+
 const Switch = ({
   enabled,
   handleChange
@@ -12,7 +14,7 @@ const Switch = ({
 
   return (
     <label className="switch__label" htmlFor="switch">
-      Active
+      {t("active")}
       <input
         className="switch__input visually-hidden"
         type="checkbox"

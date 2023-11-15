@@ -1,4 +1,5 @@
 import type { TStyle } from "./constants"
+import t from "./t"
 
 export const buildCSSToInject = (css: TStyle | string, tabId: number) => {
   let globalStyles = ""
@@ -20,11 +21,11 @@ export const buildCSSToInject = (css: TStyle | string, tabId: number) => {
       paragraphStyles += `margin-bottom: ${value}em !important;`
     } else if (key !== "line-height") {
       globalStyles += `${key}: ${
-        value !== "default" ? `${value}em !important;` : `${value};`
+        value !== t("valueDefault") ? `${value}em !important;` : `${value};`
       }`
     } else {
       globalStyles += `${key}: ${
-        value !== "default" ? `${value} !important;` : `${value};`
+        value !== t("valueDefault") ? `${value} !important;` : `${value};`
       }`
     }
   }

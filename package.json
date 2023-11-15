@@ -1,8 +1,8 @@
 {
   "name": "text-spacing-editor",
-  "displayName": "Text Spacing Editor",
+  "displayName": "__MSG_extensionName__",
   "version": "2.0.0",
-  "description": "A tool for editing text spacing properties on web pages. WCAG conformance information included.",
+  "description": "__MSG_extensionDescription__",
   "contributors": [
     "Jiří Zmrhal",
     "Dmitrii Savinykh"
@@ -31,6 +31,7 @@
     "typescript": "5.0.3"
   },
   "manifest": {
+    "default_locale": "en",
     "browser_specific_settings": {
       "gecko": {
         "id": "devs@actumdigital.com",
@@ -56,7 +57,7 @@
           "chromeos": "Ctrl+Shift+F",
           "linux": "Ctrl+Shift+F"
         },
-        "description": "Enable or disable custom text spacing properties."
+        "description": "__MSG_toggleCommand__"
       }
     }
   }

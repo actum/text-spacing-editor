@@ -1,3 +1,5 @@
+import t from "~helpers/t"
+
 const Buttons = ({
   enabled,
   handleSetWCAG,
@@ -5,10 +7,10 @@ const Buttons = ({
 }) => (
   <div className="button-group">
     <button id="wcag" onClick={handleSetWCAG} disabled={!enabled}>
-      Set WCAG values
+      {t("buttonSetWCAGValues")}
     </button>
     <button id="reset" onClick={handleResetAllValues} disabled={!enabled}>
-      Reset all values
+      {t("buttonResetAllValues")}
     </button>
   </div>
 )

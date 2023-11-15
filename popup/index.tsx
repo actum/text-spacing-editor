@@ -1,10 +1,10 @@
 import { useState } from "react"
 
-
 import { DEFAULT_VALUES, WCAG_VALUES } from "~helpers/constants"
 import { useCustomStorage } from "~helpers/useCustomStorage"
 import { updatePageCSS } from "~helpers/updatePageCSS"
 import highContrastMode from "~helpers/highContrastMode"
+import t from "~helpers/t"
 
 import AlertMessage from "./AlertMessage"
 import Instructions from "./Instructions"
@@ -35,26 +35,25 @@ const IndexPopup = () => {
     const payload = enabled ? null : storageStyles
     updatePageCSS(insertedCSSRef, payload)
     setEnabled((prev: boolean) => !prev)
-    setMessage(
-      `Custom text spacing properties were ${!enabled ? "activated" : "deactivated"}.`
-    )
+    setMessage(t("propertiesWereEnabledDisabled", [!enabled ? t("enabled") : t("disabled")]))
+
   }
   const handleSetWCAG = () => {
     updatePageCSS(insertedCSSRef, WCAG_VALUES)
     setStyles(WCAG_VALUES)
     setStorageStyles(WCAG_VALUES)
-    setMessage("Custom text spacing properties were set to WCAG values.")
+    setMessage(t("propertiesWereSetToWCAG"))
   }
 
   const handleResetAllValues = () => {
     updatePageCSS(insertedCSSRef, null)
     setStyles(DEFAULT_VALUES)
     setStorageStyles(DEFAULT_VALUES)
-    setMessage("Custom text spacing properties were reset to their default values.")
+    setMessage(t("propertiesWereResetToDefaults"))
   }
 
   const handleResetValue = (property) => {
-    setMessage(`Custom ${property} was reset to its default value.`)
+    setMessage(t("propertyWasResetToDefault", property))
   }
 
   const handleSetValue = (value) => {
@@ -64,7 +63,7 @@ const IndexPopup = () => {
   return (
     <main>
       <div className="header">
-        <h1>Text Spacing Editor</h1>
+        <h1>{t('extensionName')}</h1>
 
         <Switch enabled={enabled} handleChange={handleToggle}/>
       </div>
