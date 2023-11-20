@@ -16,8 +16,8 @@
     "message": "Resetovať všetky hodnoty"
   },
   "valueDefault": {
-    "message": "predvolené",
-    "description": "Predvolená hodnota vlastností rozloženia textu."
+    "message": "pôvodné",
+    "description": "Pôvodná hodnota vlastností rozloženia textu."
   },
   "lineHeight": {
     "message": "Výška riadku"
