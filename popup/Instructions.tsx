@@ -11,7 +11,6 @@ const Instructions = () => (
       <p dangerouslySetInnerHTML={{__html: t("instructionsForResetAllButton")}} />
       <p dangerouslySetInnerHTML={{__html: t("instructionsForSliders")}} />
       <p dangerouslySetInnerHTML={{__html: t("instructionsForReset")}} />
-      <p dangerouslySetInnerHTML={{__html: t("instructionsForIframe")}} />
       <p dangerouslySetInnerHTML={{__html: t("instructionsForWCAGOne")}} />
       <p dangerouslySetInnerHTML={{__html: t("instructionsForWCAGTwo")}} />
       <div dangerouslySetInnerHTML={{__html: t("instructionsForWCAGConformance")}} />
