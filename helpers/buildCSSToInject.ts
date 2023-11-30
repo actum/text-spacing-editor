@@ -21,11 +21,11 @@ export const buildCSSToInject = (css: TStyle | string, tabId: number) => {
       paragraphStyles += `margin-bottom: ${value}em !important;`
     } else if (key !== "line-height") {
       globalStyles += `${key}: ${
-        value !== t("valueDefault") ? `${value}em !important;` : `${value};`
+        value !== "" ? `${value}em !important;` : value
       }`
     } else {
       globalStyles += `${key}: ${
-        value !== t("valueDefault") ? `${value} !important;` : `${value};`
+        value !== "" ? `${value} !important;` : value
       }`
     }
   }
