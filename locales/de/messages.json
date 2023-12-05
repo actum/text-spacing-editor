@@ -1,0 +1,119 @@
+{
+  "extensionName": {
+    "message": "Editor for Textlayout"
+  },
+  "extensionDescription": {
+    "message": "Ein Instrument zur Bearbeitung des Textlayouts auf Webseiten. Enthält Informationen über den WCAG-Zugänglichkeitsstandard."
+  },
+  "toggleCommand": {
+    "message": "Aktivieren oder deaktivieren Sie benutzerdefinierte Textabstandseigenschaften.",
+    "description": "Eine Beschreibung der Tastenkombination in einem Browser."
+  },
+  "buttonSetWCAGValues": {
+    "message": "WCAG-Werte einstellen"
+  },
+  "buttonResetAllValues": {
+    "message": "Alle Werte zurücksetzen"
+  },
+  "valueDefault": {
+    "message": "default",
+    "description": "Der Standardwert für die Textlayout-Eigenschaften."
+  },
+  "lineHeight": {
+    "message": "Zeilenhöhe"
+  },
+  "letterSpacing": {
+    "message": "Leerzeichen zwischen Zeichen"
+  },
+  "wordSpacing": {
+    "message": "Leerzeichen zwischen Wörtern"
+  },
+  "paragraphSpacing": {
+    "message": "Leerzeichen zwischen Absätzen"
+  },
+  "active": {
+    "message": "Aktiv"
+  },
+  "decreasePropertyValue": {
+    "message": "Den Wert $PROPERTY$ verringern",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "increasePropertyValue": {
+    "message": "Den Wert $PROPERTY$ erhöhen",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetPropertyValue": {
+    "message": "Den Wert $PROPERTY$ resetten",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "propertiesWereEnabledDisabled": {
+    "message": "Die eigentlichen Textlayoutwerte $STATUS$ waren",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "enabled": {
+    "message": "eingeschaltet"
+  },
+  "disabled": {
+    "message": "ausgeschaltet"
+  },
+  "propertiesWereSetToWCAG": {
+    "message": "Eigene Textlayoutwerte wurden auf WCAG-Werte gesetzt."
+  },
+  "propertiesWereResetToDefaults": {
+    "message": "Eigene Textlayoutwerte wurden auf ihre Standardwerte zurückgesetzt."
+  },
+  "propertyWasResetToDefault": {
+    "message": "Der eigene Wert $PROPERTY$ wurde auf seinen Standardwert zurückgesetzt.",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "instructionsForUsage": {
+    "message": "Wie wird der Textlayout-Editor verwendet?"
+  },
+  "instructionsForActive": {
+    "message": "Schalten Sie den Kippschalter <strong class='hint'>Aktiv</strong> oben um, um Ihre eigenen Textlayoutwerte und alle interaktiven Elemente dieser Erweiterung ein- oder auszuschalten. Sie können auch eine Tastaturabkürzung verwenden <code class='hint'>Ctrl+Shift+F</code> (<code class='hint'>Command+Shift+F</code> auf dem Mac System) (Sie können die Abkürzung in Ihren Browsereinstellungen anpassen). Die Möglichkeit, eigene Text-Layout-Werte umzuschalten, ist praktisch zum Testen und zum Speichern eigener Einstellungen."
+  },
+  "instructionsForWCAGButton": {
+    "message": "Verwenden Sie die Schaltfläche <strong class='hint'>WCAG-Werte festlegen</strong>, um alle benutzerdefinierten Textlayout-Werte auf die gewünschten Werte für die <a href='#wcag-conformance-values'>Konformität mit den WCAG-Kriterien</a> zu setzen."
+  },
+  "instructionsForResetAllButton": {
+    "message": "Verwenden Sie die Schaltfläche <strong class='hint'>Alle Werte zurücksetzen</strong>, um alle eigenen Textlayoutwerte auf ihre Standardwerte zurückzusetzen."
+  },
+  "instructionsForSliders": {
+    "message": "Verwenden Sie <strong class='hint'>die Schieberegler</strong> oder die Schaltflächen <strong class='hint'><span class='visually-hidden'>Wert verringern</span><svg class='icon icon--inline' viewBox='0 0 24 24' ><path d='M19 13H5v-2h14v2z'></path></svg></strong> und <strong class='hint'><span class='visually-hidden'>Wert erhöhen</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'></path></svg></strong>, um einzelne Werte für das Textlayout einzustellen. Die Werte können auch durch langes Drücken der Tasten eingestellt werden."
+  },
+  "instructionsForReset": {
+    "message": "Verwenden Sie die Schaltfläche <strong class='hint'><span class='visually-hidden'>Wert zurücksetzen</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong>, um den individuellen Textlayoutwert auf den Standardwert zurückzusetzen."
+  },
+  "instructionsForIframe": {
+    "message": "Der Textlayout-Editor funktioniert auch in iframe-Elementen (auch in verschachtelten) innerhalb der Policy <a href='https://de.wikipedia.org/wiki/Same-Origin-Policy' target='_blank' rel='noopener noreferrer'>Same-Origin-Policy</a>."
+  },
+  "instructionsForWCAGOne": {
+    "message": "Verwenden Sie den Textlayout-Editor zum Testen <a href='https://a11y.digitaldialog.swiss/1.4.12' target='_blank' rel='noopener noreferrer'>Erfolgskriterium <strong>1.4.12 - Textabstand - AA</strong></a>, der besagt:"
+  },
+  "instructionsForWCAGTwo": {
+    "message": "Solange der Benutzer alle folgenden Einstellungen vornimmt und keine andere Stileigenschaft geändert wird, kommt es zu keinem Verlust von Inhalt oder Funktionalität:"
+  },
+  "instructionsForWCAGConformance": {
+    "message": "<ul id='wcag-conformance-values'><li><em>Zeilenhöhe</em> (Zeilenabstand) auf mindestens das <em>1,5</em>-fache der Schriftgröße.</li><li><em>Der Schriftabstand</em> (Tracking) auf mindestens das <em>0,12</em>-fache der Schriftgröße betragen.</li><li><em>Abstände zwischen den Wörtern</em> mindestens das <em>0,16</em>-fache der Schriftgröße.</li><li><em>Der Abstand zwischen den Absätzen</em> mindestens <em>doppelt</em> so groß sein wie die Schriftgröße.</li></ul>"
+  }
+}
