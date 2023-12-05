@@ -38,7 +38,7 @@ const Slider = ({
     let newValue = WCAG_VALUES[property];
 
     // Subtract from or add to the value
-    if (valueRef.current !== t("valueDefault")) {
+    if (valueRef.current !== "") {
       const decimalPlaces = countDecimals(step);
 
       if (operation === "subtract") {
@@ -85,9 +85,9 @@ const Slider = ({
           className={`slider__value ${enabled ? "" : "dimmed"}`}
           id={`value-${property}`}
         >
-          {value}
+          {value === "" ? t("valueDefault") : value}
           {!unitless &&
-            (value !== t("valueDefault") && "em")
+            (value !== "" && "em")
           }
         </span>
       </div>
