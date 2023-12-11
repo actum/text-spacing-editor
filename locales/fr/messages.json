@@ -105,7 +105,7 @@
     "message": "Cliquez sur le bouton <strong class='hint'><span class='visually-hidden'>Réinitialiser</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong> pour réinitialiser la propriété à sa valeur par défaut."
   },
   "instructionsForIframe": {
-    "message": "Éditeur d'Espacement de Texte supporte les iframes (même imbriquées) <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>avec la même origine</a>. Pour des raisons de sécurité l'extension peut ne pas fonctionner au sein d'iframes provenant de différents sites web."
+    "message": "Éditeur d'Espacement de Texte supporte les iframes (même imbriquées) <a href='https://developer.mozilla.org/fr/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>avec la même origine</a>. Pour des raisons de sécurité l'extension peut ne pas fonctionner au sein d'iframes provenant de différents sites web."
   },
   "instructionsForWCAGOne": {
     "message": "Vous pouvez utiliser Éditeur d'Espacement de Texte pour tester le  <a href='https://www.w3.org/Translations/WCAG21-fr/#text-spacing' target='_blank' rel='noopener noreferrer'>critère WCAG<strong> 1.4.12 -  Espacement du texte - AA</strong></a> qui indique:"
