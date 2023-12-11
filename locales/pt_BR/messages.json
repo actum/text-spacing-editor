@@ -105,7 +105,7 @@
     "message": "Use o botão <strong class='hint'><span class='visually-hidden'>Restaurar</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong> para restaurar os valores de cada propriedade de espaçamento de texto."
   },
   "instructionsForIframe": {
-    "message": "O Editor de Espaçamento de Texto suporta iframes (includindo 'nested') para <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>mesma origem</a>."
+    "message": "O Editor de Espaçamento de Texto suporta iframes (includindo 'nested') para <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>mesma origem</a>. A extensão pode não funcionar com iframes de diferentes websites devido a restrições de segurança na web."
   },
   "instructionsForWCAGOne": {
     "message": "Você pode testar o Editor de Espaçamento de Texto <a href='https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html' target='_blank' rel='noopener noreferrer'>WCAG critério <strong>1.4.12 - Espaçamento de Texto - AA</strong></a> que diz o seguinte:"
@@ -115,5 +115,14 @@
   },
   "instructionsForWCAGConformance": {
     "message": "<ul id='wcag-conformance-values'><li><em>Altura da linha</em> para pelo menos <em>1.5</em> vezes o tamanho da fonte.</li><li><em>Espaçamento entre letras</em> para no mínimo <em>0.12</em> vezes o tamanho da fonte.</li><li><em>Espaçamento entre palavras</em> para no mínimo <em>0.16</em> vezes o tamanho da fonte.</li><li><em>Espaçamento entre parágrafos</em> para ao menos em>2</em> vezes o tamanho da fonte.</li></ul>"
+  },
+  "troubleshooting": {
+    "message": "Solucionando problemas"
+  },
+  "assistance": {
+    "message": "Estamos aqui para ajudá-lo! Se encontrar problemas, tiver sugestões our quiser entrar em contato conosco, por favor <a href='https://github.com/actum/text-spacing-editor/issues/new/choose' target='_blank' rel='noreferrer noopener'>crie uma questão 'issue' no GitHub<a> ou entre em contato conosco através do e-mail <a href='mailto:devs@actumdigital.com'>devs@actumdigital.com</a>."
+  },
+  "scriptBlockingInfo": {
+    "message": "Por favor, apesar do Editor de espaçamento de texto funcionar na maioria das páginas web, ele pode não funcinar em páginas que tenham políticas rigorosas de bloqueio de scripts. Por razões de segurança, algumas páginas da web impedem extensões como a nossa de executar scripts e modificar espaçamentos de texto."
   }
 }
