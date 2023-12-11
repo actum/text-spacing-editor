@@ -1,0 +1,119 @@
+{
+  "extensionName": {
+    "message": "Editor di Spaziatura del Testo"
+  },
+  "extensionDescription": {
+    "message": "Uno strumento per modificare le proprietà di spaziatura del testo nelle pagine web. Informazioni sulla conformità WCAG incluse."
+  },
+  "toggleCommand": {
+    "message": "Attiva o disattiva le proprietà di spaziatura del testo personalizzate.",
+    "description": "Una descrizione della scorciatoia da tastiera in un browser."
+  },
+  "buttonSetWCAGValues": {
+    "message": "Imposta i valori WCAG"
+  },
+  "buttonResetAllValues": {
+    "message": "Reimposta tutti i valori"
+  },
+  "valueDefault": {
+    "message": "predefinito",
+    "description": "Valore predefinito delle proprietà di spaziatura del testo."
+  },
+  "lineHeight": {
+    "message": "Altezza della linea"
+  },
+  "letterSpacing": {
+    "message": "Spaziatura delle lettere"
+  },
+  "wordSpacing": {
+    "message": "Spaziatura delle parole"
+  },
+  "paragraphSpacing": {
+    "message": "Spaziatura dei paragrafi"
+  },
+  "active": {
+    "message": "Attivo"
+  },
+  "decreasePropertyValue": {
+    "message": "Diminuisci il valore di $PROPERTY$",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "increasePropertyValue": {
+    "message": "Aumenta il valore di $PROPERTY$",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetPropertyValue": {
+    "message": "Reimposta il valore di $PROPERTY$",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "propertiesWereEnabledDisabled": {
+    "message": "Le proprietà di spaziatura del testo personalizzate sono state $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "enabled": {
+    "message": "attivate"
+  },
+  "disabled": {
+    "message": "disattivate"
+  },
+  "propertiesWereSetToWCAG": {
+    "message": "Le proprietà di spaziatura del testo personalizzate sono state impostate ai valori WCAG."
+  },
+  "propertiesWereResetToDefaults": {
+    "message": "Le proprietà di spaziatura del testo personalizzate sono state reimpostate ai loro valori predefiniti."
+  },
+  "propertyWasResetToDefault": {
+    "message": "La proprietà personalizzata $PROPERTY$ è stata reimpostata al suo valore predefinito.",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "instructionsForUsage": {
+    "message": "Come usare l'Editor di Spaziatura del Testo?"
+  },
+  "instructionsForActive": {
+    "message": "Usa l'interruttore <strong class='hint'>Attivo</strong> in alto per attivare o disattivare le tue proprietà di spaziatura del testo personalizzate e tutti i controlli interattivi di questa estensione. Puoi anche usare una scorciatoia da tastiera <code class='hint'>Ctrl+Shift+F</code> (<code class='hint'>Command+Shift+F</code> su Mac) per questo (sentiti libero di impostare la tua scorciatoia personalizzata nelle impostazioni dell'estensione del tuo browser). La possibilità di attivare/disattivare le proprietà personalizzate è utile per testare e memorizzare impostazioni personalizzate."
+  },
+  "instructionsForWCAGButton": {
+    "message": "Usa il pulsante <strong class='hint'>Imposta valori WCAG</strong> per impostare tutte le proprietà di spaziatura del testo personalizzate ai <a href='#wcag-conformance-values'>valori di conformità WCAG</a>."
+  },
+  "instructionsForResetAllButton": {
+    "message": "Usa il pulsante <strong class='hint'>Reimposta tutti i valori</strong> per reimpostare tutte le proprietà di spaziatura del testo ai loro valori predefiniti."
+  },
+  "instructionsForSliders": {
+    "message": "Usa sia gli <strong class='hint'>slider</strong> che i pulsanti <strong class='hint'><span class='visually-hidden'>Diminuisci</span><svg class='icon icon--inline' viewBox='0 0 24 24' ><path d='M19 13H5v-2h14v2z'></path></svg></strong> e <strong class='hint'><span class='visually-hidden'>Aumenta</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'></path></svg></strong> (che supportano l'evento di pressione prolungata) per impostare i valori delle singole proprietà di spaziatura del testo."
+  },
+  "instructionsForReset": {
+    "message": "Usa il pulsante <strong class='hint'><span class='visually-hidden'>Reimposta</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong> per reimpostare i valori delle singole proprietà di spaziatura del testo."
+  },
+  "instructionsForIframe": {
+    "message": "L'Editor di Spaziatura del Testo supporta gli iframe (anche annidati) sulla <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>stessa origine</a>."
+  },
+  "instructionsForWCAGOne": {
+    "message": "Puoi usare l'Editor di Spaziatura del Testo per testare il <a href='https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html' target='_blank' rel='noopener noreferrer'>criterio WCAG <strong>1.4.12 - Spaziatura del Testo - AA</strong></a> che dice quanto segue:"
+  },
+  "instructionsForWCAGTwo": {
+    "message": "Nessuna perdita di contenuto o funzionalità si verifica impostando tutte queste proprietà ai seguenti valori:"
+  },
+  "instructionsForWCAGConformance": {
+    "message": "<ul id='wcag-conformance-values'><li><em>Altezza della linea</em> ad almeno <em>1,5</em> volte la dimensione del carattere.</li><li><em>Spaziatura delle lettere</em> ad almeno <em>0,12</em> volte la dimensione del carattere.</li><li><em>Spaziatura delle parole</em> ad almeno <em>0,16</em> volte la dimensione del carattere.</li><li><em>Spaziatura a seguito dei paragrafi</em> ad almeno <em>2</em> volte la dimensione del carattere.</li></ul>"
+  }
+}
