@@ -105,7 +105,7 @@
     "message": "Usa il pulsante <strong class='hint'><span class='visually-hidden'>Reimposta</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong> per reimpostare i valori delle singole proprietà di spaziatura del testo."
   },
   "instructionsForIframe": {
-    "message": "L'Editor di Spaziatura del Testo supporta gli iframe (anche annidati) sulla <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>stessa origine</a>."
+    "message": "L'Editor di Spaziatura del Testo supporta gli iframe (anche annidati) sulla <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>stessa origine</a>. L'estensione potrebbe non funzionare all'interno di iframe di siti web diversi a causa delle restrizioni di sicurezza web."
   },
   "instructionsForWCAGOne": {
     "message": "Puoi usare l'Editor di Spaziatura del Testo per testare il <a href='https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html' target='_blank' rel='noopener noreferrer'>criterio WCAG <strong>1.4.12 - Spaziatura del Testo - AA</strong></a> che dice quanto segue:"
@@ -115,5 +115,14 @@
   },
   "instructionsForWCAGConformance": {
     "message": "<ul id='wcag-conformance-values'><li><em>Altezza della linea</em> ad almeno <em>1,5</em> volte la dimensione del carattere.</li><li><em>Spaziatura delle lettere</em> ad almeno <em>0,12</em> volte la dimensione del carattere.</li><li><em>Spaziatura delle parole</em> ad almeno <em>0,16</em> volte la dimensione del carattere.</li><li><em>Spaziatura a seguito dei paragrafi</em> ad almeno <em>2</em> volte la dimensione del carattere.</li></ul>"
+  },
+  "troubleshooting": {
+    "message": "Risoluzione dei Problemi"
+  },
+  "assistance": {
+    "message": "Siamo qui per assisterti! Se incontri problemi, hai suggerimenti o vuoi metterti in contatto, per favore <a href='https://github.com/actum/text-spacing-editor/issues/new/choose' target='_blank' rel='noreferrer noopener'>crea un nuovo problema (issue) su GitHub</a> o contattaci via e-mail a <a href='mailto:devs@actumdigital.com'>devs@actumdigital.com</a>."
+  },
+  "scriptBlockingInfo": {
+    "message": "Si prega di essere consapevoli che, sebbene l'Editor di Spaziatura del Testo funzioni sulla maggior parte dei siti web, potrebbe non funzionare su siti web che hanno politiche rigorose di blocco degli script. Alcuni siti web, per motivi di sicurezza, impediscono a estensioni come la nostra di eseguire script per modificare la spaziatura del testo."
   }
 }
