@@ -182,7 +182,7 @@ h1 {
 }
 
 details {
-  margin: 1rem 0;
+  margin-top: 1rem;
   background-color: var(--color-secondary-light);
 }
 

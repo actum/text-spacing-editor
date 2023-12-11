@@ -11,6 +11,7 @@ import Instructions from "./Instructions"
 import Switch from "./Controls/Switch"
 import Buttons from "./Controls/Buttons"
 import Sliders from "./Controls/Sliders"
+import Troubleshooting from "./Troubleshooting"
 
 import "./style.css"
 
@@ -85,6 +86,8 @@ const IndexPopup = () => {
         handleResetValue={handleResetValue}
         handleSetValue={handleSetValue}
       />
+
+      <Troubleshooting />
 
       <AlertMessage message={message} />
     </main>
