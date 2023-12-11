@@ -44,6 +44,7 @@ body {
 h1 {
   font-size: 1.35rem;
   margin: 0;
+  padding-right: 1.5rem;
 }
 
 .icon {
