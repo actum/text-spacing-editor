@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Editor de espacio de texto"
+    "message": "Editor de espaciado de texto"
   },
   "extensionDescription": {
     "message": "Una herramienta para editar propiedades de espaciado de texto en páginas web. Información en concordancia a WCAG incluida."
@@ -20,7 +20,7 @@
     "description": "Valor de propiedades de espaciado de texto predeterminado."
   },
   "lineHeight": {
-    "message": "Altura De Línea"
+    "message": "Interlineado"
   },
   "letterSpacing": {
     "message": "Espaciado de Letra"
@@ -99,7 +99,7 @@
     "message": "Usar el <strong class='hint'>Restablecer Todos Los Valores</strong> botón para restablecer todas las propiedades de espaciado de texto a sus valores predeterminados."
   },
   "instructionsForSliders": {
-    "message": "Usar el <strong class='hint'>deslizantes</strong> or el <strong class='hint'><span class='visually-hidden'>Disminuir</span><svg class='icon icon--inline' viewBox='0 0 24 24' ><path d='M19 13H5v-2h14v2z'></path></svg></strong> y <strong class='hint'><span class='visually-hidden'>Incrementar</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'></path></svg></strong> botones (Que permiten eventos de pulsación larga) para establecer los valores de las propiedades de espaciado de texto individuales."
+    "message": "Usar el <strong class='hint'>deslizante</strong> or el <strong class='hint'><span class='visually-hidden'>Disminuir</span><svg class='icon icon--inline' viewBox='0 0 24 24' ><path d='M19 13H5v-2h14v2z'></path></svg></strong> y <strong class='hint'><span class='visually-hidden'>Incrementar</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'></path></svg></strong> botones (Que permiten eventos de pulsación larga) para establecer los valores de las propiedades de espaciado de texto individuales."
   },
   "instructionsForReset": {
     "message": "Usar el <strong class='hint'><span class='visually-hidden'>Restablecer</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong> botón para restablecer los valores de las propiedades de espaciado de texto individual."
@@ -114,7 +114,7 @@
     "message": "No se produce ninguna pérdida de contenido o funcionalidad al establecer todas estas propiedades en los siguientes valores:"
   },
   "instructionsForWCAGConformance": {
-    "message": "<ul id='wcag-conformance-values'><li><em>La altura de línea</em> debe ser al menos <em>1.5</em> veces el tamaño de la fuente.</li><li><em>El espaciado de letra</em> debe ser al menos <em>0.12</em> veces el tamaño de la fuente.</li><li><em>El espaciado de palabra</em> debe ser al menos <em>0.16</em> veces el tamaño de la fuente.</li><li><em>Espaciado de los párrafos</em> siguientes al menos <em>2</em> veces el tamaño de la fuente.</li></ul>"
+    "message": "<ul id='wcag-conformance-values'><li><em>El interlineado</em> debe ser al menos <em>1.5</em> veces el tamaño de la fuente.</li><li><em>El espaciado de letra</em> debe ser al menos <em>0.12</em> veces el tamaño de la fuente.</li><li><em>El espaciado de palabra</em> debe ser al menos <em>0.16</em> veces el tamaño de la fuente.</li><li><em>Espaciado de los párrafos</em> siguientes al menos <em>2</em> veces el tamaño de la fuente.</li></ul>"
   },
   "troubleshooting": {
     "message": "Solución de problemas"
