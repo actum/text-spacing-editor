@@ -1,0 +1,128 @@
+{
+  "extensionName": {
+    "message": "टेक्स्ट स्पेसिंग संपादक"
+  },
+  "extensionDescription": {
+    "message": "वेब पेजों पर टेक्स्ट स्पेसिंग गुणों को संपादित करने के लिए एक उपकरण। WCAG अनुरूपता जानकारी शामिल है।"
+  },
+  "toggleCommand": {
+    "message": "कस्टम टेक्स्ट रिक्ति गुणों को सक्षम या अक्षम करें।",
+    "description": "ब्राउज़र में कीबोर्ड शॉर्टकट का विवरण."
+  },
+  "buttonSetWCAGValues": {
+    "message": "WCAG मान सेट करें"
+  },
+  "buttonResetAllValues": {
+    "message": "सभी मान रीसेट करें"
+  },
+  "valueDefault": {
+    "message": "डिफ़ॉल्ट",
+    "description": "डिफ़ॉल्ट पाठ रिक्ति गुण मान."
+  },
+  "lineHeight": {
+    "message": "रेखा की ऊंचाई"
+  },
+  "letterSpacing": {
+    "message": "पत्र अंतराल"
+  },
+  "wordSpacing": {
+    "message": "शब्द रिक्ति"
+  },
+  "paragraphSpacing": {
+    "message": "अनुच्छेद रिक्ति"
+  },
+  "active": {
+    "message": "Active"
+  },
+  "decreasePropertyValue": {
+    "message": "$PROPERTY$ का मूल्य घटाएँ",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "increasePropertyValue": {
+    "message": "$PROPERTY$ का मूल्य बढ़ाएँ",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetPropertyValue": {
+    "message": "$PROPERTY$ मान रीसेट करें",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "propertiesWereEnabledDisabled": {
+    "message": "कस्टम टेक्स्ट रिक्ति गुण $STATUS$ थे।",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "enabled": {
+    "message": "सक्षम"
+  },
+  "disabled": {
+    "message": "अक्षम"
+  },
+  "propertiesWereSetToWCAG": {
+    "message": "कस्टम टेक्स्ट रिक्ति गुण WCAG मानों पर सेट किए गए थे।"
+  },
+  "propertiesWereResetToDefaults": {
+    "message": "कस्टम टेक्स्ट रिक्ति गुणों को उनके डिफ़ॉल्ट मानों पर रीसेट कर दिया गया था।"
+  },
+  "propertyWasResetToDefault": {
+    "message": "कस्टम $PROPERTY$ को उसके डिफ़ॉल्ट मान पर रीसेट कर दिया गया था।",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "instructionsForUsage": {
+    "message": "टेक्स्ट स्पेसिंग एडिटर का उपयोग कैसे करें?"
+  },
+  "instructionsForActive": {
+    "message": "अपने कस्टम टेक्स्ट स्पेसिंग गुणों और इस एक्सटेंशन के सभी इंटरैक्टिव नियंत्रणों को सक्रिय या निष्क्रिय करने के लिए शीर्ष पर <strong class='hint'>सक्रिय</strong> स्विचर का उपयोग करें। आप इसके लिए कुंजी शॉर्टकट <code class='hint'>Ctrl+Shift+F</code> (<code class='hint'>Command+Shift+F</code> Mac पर) का भी उपयोग कर सकते हैं (निःसंकोच अपने ब्राउज़र की एक्सटेंशन सेटिंग्स में अपना कस्टम कुंजी शॉर्टकट सेट करने के लिए)। कस्टम गुणों को टॉगल करने में सक्षम होना कस्टम सेटिंग्स के परीक्षण और भंडारण के लिए आसान है।"
+  },
+  "instructionsForWCAGButton": {
+    "message": "सभी कस्टम टेक्स्ट स्पेसिंग गुणों को <a href='#wcag-conformance-values'>WCAG अनुरूपता मान</a> पर सेट करने के लिए <strong class='hint'>WCAG मान सेट करें</strong> बटन का उपयोग करें।"
+  },
+  "instructionsForResetAllButton": {
+    "message": "सभी टेक्स्ट रिक्ति गुणों को उनके डिफ़ॉल्ट मानों पर रीसेट करने के लिए <strong class='hint'>सभी मान रीसेट करें</strong> बटन का उपयोग करें।"
+  },
+  "instructionsForSliders": {
+    "message": "या तो <strong class='hint'>स्लाइडर</strong> या <strong class='hint'><span class='visually-hidden'>घटाएं</span><svg class='icon icon--inline' viewBox='0 0 24 24' ><path d='M19 13H5v-2h14v2z'></path></svg></strong> और <strong class='hint'><span class='visually-hidden'>वृद्धि</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'></path></svg></strong> बटन (जो लंबे समय तक प्रेस करने वाले इवेंट का समर्थन करते हैं) व्यक्तिगत टेक्स्ट स्पेसिंग गुणों के मान सेट करने के लिए।"
+  },
+  "instructionsForReset": {
+    "message": "<strong class='hint'><span class='visually-hidden'>Reset</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d=' का उपयोग करें M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong> मानों को रीसेट करने के लिए बटन व्यक्तिगत पाठ रिक्ति गुण।"
+  },
+  "instructionsForIframe": {
+    "message": "टेक्स्ट स्पेसिंग एडिटर <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer पर आईफ्रेम (नेस्टेड भी) का समर्थन करता है '>समान मूल</a>। वेब सुरक्षा प्रतिबंधों के कारण एक्सटेंशन विभिन्न वेबसाइटों के आईफ्रेम के भीतर काम नहीं कर सकता है।"
+  },
+  "instructionsForWCAGOne": {
+    "message": "आप <a href='https://www.w3.org/WAI/WCAG21/Understandard/text-spacing.html' target='_blank' rel='noopener noreferrer'>WCAG मानदंड का परीक्षण करने के लिए टेक्स्ट स्पेसिंग एडिटर का उपयोग कर सकते हैं। मजबूत>1.4.12 - टेक्स्ट स्पेसिंग - एए</strong></a> जो निम्नलिखित कहता है:"
+  },
+  "instructionsForWCAGTwo": {
+    "message": "इन सभी गुणों को निम्नलिखित मानों पर सेट करने से सामग्री या कार्यक्षमता का कोई नुकसान नहीं होता है:"
+  },
+  "instructionsForWCAGConformance": {
+    "message": "<ul id='wcag-conformance-values'><li><em>लाइन की ऊंचाई</em> फ़ॉन्ट आकार का कम से कम <em>1.5</em> गुना।</li><li><em> अक्षरों के बीच अंतर</em> फ़ॉन्ट आकार से कम से कम <em>0.12</em> गुना।</li><li><em>शब्द अंतर</em> से कम से कम <em>0.16</em> गुना फ़ॉन्ट आकार।</li><li><em>निम्नलिखित पैराग्राफों में फ़ॉन्ट आकार से कम से कम <em>2</em> गुना अंतर रखें।</li></ul>"
+  },
+  "troubleshooting": {
+    "message": "समस्या निवारण"
+  },
+  "assistance": {
+    "message": "आपकी मदद के लिए हम हाजिर हैं! यदि आपको कोई समस्या आती है, कोई सुझाव है, या संपर्क करना चाहते हैं, तो कृपया <a href='https://github.com/actum/text-spacing-editor/issues/new/choose' target='_blank' rel='noreferrer noopener'>GitHub पर एक नया मुद्दा बनाएं</a> या <a href='mailto:devs@actumdigital.com'>devs@actumdigital.com</a> पर ई-मेल के जरिए हमसे संपर्क करें।"
+  },
+  "scriptBlockingInfo": {
+    "message": "कृपया ध्यान रखें कि टेक्स्ट स्पेसिंग एडिटर अधिकांश वेबसाइटों पर काम करता है, लेकिन यह उन वेबसाइटों पर काम नहीं कर सकता है जिनके पास सख्त स्क्रिप्ट-ब्लॉकिंग नीतियां हैं। कुछ वेबसाइटें, सुरक्षा कारणों से, टेक्स्ट रिक्ति को संशोधित करने के लिए हमारे जैसे एक्सटेंशन को स्क्रिप्ट चलाने से रोकती हैं।"
+  }
+}
