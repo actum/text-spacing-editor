@@ -1,0 +1,128 @@
+{
+  "extensionName": {
+    "message": "Editor de espaçamento de texto"
+  },
+  "extensionDescription": {
+    "message": "Uma ferramenta para editar propriedades de espaçamento de textos em páginas web. Inclui informações sobre as Diretrizes de Acessibilidade para Conteúdo Web (WCAG)."
+  },
+  "toggleCommand": {
+    "message": "Habilite ou desabilite propriedades personalizadas de espaçamento de texto.",
+    "description": "Uma descrição do atalho de teclado no navegador web."
+  },
+  "buttonSetWCAGValues": {
+    "message": "Salvar valores WCAG"
+  },
+  "buttonResetAllValues": {
+    "message": "Restaurar valores WCAG"
+  },
+  "valueDefault": {
+    "message": "padrão",
+    "description": "Valor padrão da propriedade de espaçamento de texto."
+  },
+  "lineHeight": {
+    "message": "Altura da linha"
+  },
+  "letterSpacing": {
+    "message": "Espaçamento entre letras"
+  },
+  "wordSpacing": {
+    "message": "Espaçamento entre palavras"
+  },
+  "paragraphSpacing": {
+    "message": "Espaçamento entre parágrafos"
+  },
+  "active": {
+    "message": "Ativo"
+  },
+  "decreasePropertyValue": {
+    "message": "Diminua o valor de $PROPERTY$",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "increasePropertyValue": {
+    "message": "Aumente o valor de $PROPERTY$",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetPropertyValue": {
+    "message": "Restaure o valor de $PROPERTY$ ",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "propertiesWereEnabledDisabled": {
+    "message": "As propriedades personalizadas de espaçmento de texto foram $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "enabled": {
+    "message": "habilitadas"
+  },
+  "disabled": {
+    "message": "desabilitadas"
+  },
+  "propertiesWereSetToWCAG": {
+    "message": "As propriedades personalizadas de espaçmento de texto foram configuradas."
+  },
+  "propertiesWereResetToDefaults": {
+    "message": "As propriedades personalizadas de espaçmento de texto foram restauradas aos valores padrões."
+  },
+  "propertyWasResetToDefault": {
+    "message": "A propriedade $PROPERTY$ foi restaurada para o valor padrão.",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "instructionsForUsage": {
+    "message": "Como utilizar o Editor de Espaçamento de Texto?"
+  },
+  "instructionsForActive": {
+    "message": "Use o interruptor <strong class='hint'>Ativo</strong> acima para ativar ou desativar as propriedades personalizadas de espaçamento de texto e outros controles interativos desta extensão. Você também pode uar um atalho de teclado <code class='hint'>Ctrl+Shift+F</code> (<code class='hint'>Command+Shift+F</code> para Mac) para isto (sinta-se à vontade para definir seu atalho preferido nas configurações da extensão do seu navegador). Personalizar as propriedades é útil para testar e armazenar configurações customizadas."
+  },
+  "instructionsForWCAGButton": {
+    "message": "Use o botão <strong class='hint'>Salvar valores WCAG</strong> para salvar as opções personalizadas do espaçamento de texto das <a href='#wcag-conformance-values'>Diretrizes de Acessibilidade para Conteúdo Web (WCAG).</a>."
+  },
+  "instructionsForResetAllButton": {
+    "message": "Use o botão <strong class='hint'>Restaurar valores WCAG</strong> para restaurar todas as propriedades the expaçamento de texto para os valores padrões."
+  },
+  "instructionsForSliders": {
+    "message": "Use os <strong class='hint'>controles deslizantes</strong> ou os botões <strong class='hint'><span class='visually-hidden'>Diminuir</span><svg class='icon icon--inline' viewBox='0 0 24 24' ><path d='M19 13H5v-2h14v2z'></path></svg></strong> e <strong class='hint'><span class='visually-hidden'>Aumentar</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'></path></svg></strong> para configurar o valor de espaçamento de cada propriedade. Segure o botão para modificar o valor automaticamente."
+  },
+  "instructionsForReset": {
+    "message": "Use o botão <strong class='hint'><span class='visually-hidden'>Restaurar</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong> para restaurar os valores de cada propriedade de espaçamento de texto."
+  },
+  "instructionsForIframe": {
+    "message": "O Editor de Espaçamento de Texto suporta iframes (includindo 'nested') para <a href='https://pt.wikipedia.org/wiki/Pol%C3%ADtica_de_mesma_origem' target='_blank' rel='noopener noreferrer'>mesma origem</a>. A extensão pode não funcionar com iframes de diferentes websites devido a restrições de segurança na web."
+  },
+  "instructionsForWCAGOne": {
+    "message": "Você pode testar o Editor de Espaçamento de Texto <a href='https://www.google.com/preferences?lang=1' target='_blank' rel='noopener noreferrer'>WCAG critério <strong>1.4.12 - Espaçamento de Texto - AA</strong></a> que diz o seguinte:"
+  },
+  "instructionsForWCAGTwo": {
+    "message": "Não há perda de conteúdo nem de funcionalidades quando as propriedades são configuradas para os seguintes valores:"
+  },
+  "instructionsForWCAGConformance": {
+    "message": "<ul id='wcag-conformance-values'><li><em>Altura da linha</em> para pelo menos <em>1.5</em> vezes o tamanho da fonte.</li><li><em>Espaçamento entre letras</em> para no mínimo <em>0.12</em> vezes o tamanho da fonte.</li><li><em>Espaçamento entre palavras</em> para no mínimo <em>0.16</em> vezes o tamanho da fonte.</li><li><em>Espaçamento entre parágrafos</em> para ao menos em>2</em> vezes o tamanho da fonte.</li></ul>"
+  },
+  "troubleshooting": {
+    "message": "Solucionando problemas"
+  },
+  "assistance": {
+    "message": "Estamos aqui para ajudá-lo! Se encontrar problemas, tiver sugestões our quiser entrar em contato conosco, por favor <a href='https://github.com/actum/text-spacing-editor/issues/new/choose' target='_blank' rel='noreferrer noopener'>crie uma questão 'issue' no GitHub<a> ou entre em contato conosco através do e-mail <a href='mailto:devs@actumdigital.com'>devs@actumdigital.com</a>."
+  },
+  "scriptBlockingInfo": {
+    "message": "Por favor, apesar do Editor de espaçamento de texto funcionar na maioria das páginas web, ele pode não funcinar em páginas que tenham políticas rigorosas de bloqueio de scripts. Por razões de segurança, algumas páginas da web impedem extensões como a nossa de executar scripts e modificar espaçamentos de texto."
+  }
+}
