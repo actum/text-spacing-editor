@@ -3,7 +3,7 @@
     "message": "Editor for Textlayout"
   },
   "extensionDescription": {
-    "message": "Ein Instrument zur Bearbeitung des Textlayouts auf Webseiten. Enthält Informationen über den WCAG-Zugänglichkeitsstandard."
+    "message": "Tool zur Bearbeitung von Textabstands-Eigenschaften auf Webseiten, inklusive WCAG-Infos."
   },
   "toggleCommand": {
     "message": "Aktivieren oder deaktivieren Sie benutzerdefinierte Textabstandseigenschaften.",

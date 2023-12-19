@@ -3,7 +3,7 @@
     "message": "Editor de espaçamento de texto"
   },
   "extensionDescription": {
-    "message": "Uma ferramenta para editar propriedades de espaçamento de textos em páginas web. Inclui informações sobre as Diretrizes de Acessibilidade para Conteúdo Web (WCAG)."
+    "message": "Ferramenta para editar espaçamento de texto em web, com dados das Diretrizes WCAG."
   },
   "toggleCommand": {
     "message": "Habilite ou desabilite propriedades personalizadas de espaçamento de texto.",
