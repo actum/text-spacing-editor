@@ -90,3 +90,28 @@ Build with plasmo, packed with `pack.sh` script and distributed to web stores ma
 [Badge Edge]: https://img.shields.io/badge/dynamic/json?label=Edge%20users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fnhjfhffdjhbdflekgnopingdbflmgjfb
 [Badge Mozilla]: https://img.shields.io/amo/users/text-spacing-editor-actum.svg?label=Firefox%20users
 [Badge Safari]: https://img.shields.io/badge/dynamic/json?color=blue&label=Safari%20users&query=ratingCount&url=https%3A%2F%2Fwww.rateinsight.app%2Fapi%2Fshield?appId=6469146607
+
+## Contribution
+
+If you encounter issues, have suggestions, or want to add a new feature, please [create a new issue](https://github.com/actum/text-spacing-editor/issues/new/choose). We are happy to help you.
+
+### Translations
+
+We welcome your help with localization! If you want to contribute with a translation of texts, here is what to do:
+
+1. First, ensure the locale you want to add is supported by web stores. Check the list of [supported locales](https://developer.chrome.com/docs/extensions/reference/api/i18n#supported-locales). If you do not see your locale in the list, and you cannot choose the closest possible locale, it is not possible to localize the extension to your wanted language as the web stores do not support it.
+2. Follow one of these two steps:
+    1. **If you have experience with GitHub and know how to create a pull request**, fork this repository, create a new branch, and add the new locale file within a new folder like so: `/locales/[LOCALE]/messages.json`, where `[LOCALE]` is the code of the locale you are about to add. For instance, if you want to add an Indonesian locale, you would create a `/locales/id/messages.json` file.
+    2. **If you are not comfortable with GitHub or pull requests**, create a new text document on your computer and name it `messages.json` or `messages.txt`.
+3. Copy the contents of the [English (en) locale messages.json file](https://github.com/actum/text-spacing-editor/blob/main/locales/en/messages.json) and paste it to your new file.
+4. Translate all values of `message` and `description` keys. Only translate the actual texts inside, such as `Text Spacing Editor` or `Line height`. Do not translate the keys themselves, for instance, `extensionName`, `message`, `description`, `placeholders`, `property`, or `content`. Also, some texts contain HTML tags inside, such as `<ul id='wcag-conformance-values'><li><em>Line height</em>` - in that case, only translate the texts inside the HTML tags.
+5. Follow one of these two steps:
+    1. **If you forked the repository**, commit and push your changes and create a pull request. Make sure the base repository is `actum/text-spacing-editor` and the base branch is `main`.
+    2. **If you created a new file on your computer**, [add a new feature request](https://github.com/actum/text-spacing-editor/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=):
+        1. Add a title (e.g. "Add Indonesian locale") and a description with any additional information you want to mention there.
+        2. Attach your file to the description (or use the "Paste, drop, or click to add files" button to upload the file).        
+
+[Check the other locales](https://github.com/actum/text-spacing-editor/tree/main/locales) to see how they are implemented.
+
+We will review your request, contact you if necessary, and implement the changes. Thank you!
+If you are not sure if you did something right, don't worry. We will review your issue and help you with everything 🙂. You can always contact us at devs@actumdigital.com.
