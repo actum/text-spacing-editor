@@ -3,7 +3,7 @@
     "message": "Editor di Spaziatura del Testo"
   },
   "extensionDescription": {
-    "message": "Uno strumento per modificare le proprietà di spaziatura del testo nelle pagine web. Informazioni sulla conformità WCAG incluse."
+    "message": "Strumento per la modifica della spaziatura testo sulle pagine web, con dati sulla conformità WCAG."
   },
   "toggleCommand": {
     "message": "Attiva o disattiva le proprietà di spaziatura del testo personalizzate.",
