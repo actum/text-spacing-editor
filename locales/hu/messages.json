@@ -3,7 +3,7 @@
     "message": "Szövegtérköz-szerkesztő"
   },
   "extensionDescription": {
-    "message": "Szövegtérköz-tulajdonságok szerkesztésére szolgáló eszköz a weboldalakon. WCAG megfelelőségre vonatkozó információkkal."
+    "message": "A weboldalak szövegtérköz-tulajdonságainak szerkesztésére szolgáló eszköz, ami WCAG megfelelőséggel kapcsolatos információkat is tartalmaz."
   },
   "toggleCommand": {
     "message": "Enable or disable custom text spacing properties.",
@@ -17,7 +17,7 @@
   },
   "valueDefault": {
     "message": "alapértelmezett",
-    "description": "Default text spacing properties value."
+    "description": "Alapértelmezett szövegtérköz-tulajdonság értékDefault text spacing properties value."
   },
   "lineHeight": {
     "message": "Sorköz"
@@ -35,7 +35,7 @@
     "message": "Aktív"
   },
   "decreasePropertyValue": {
-    "message": "$PROPERTY$ érték csökkentése",
+    "message": "$PROPERTY$ értékének csökkentése",
     "placeholders": {
       "property": {
         "content": "$1"
@@ -43,7 +43,7 @@
     }
   },
   "increasePropertyValue": {
-    "message": "$PROPERTY$ érték növelése",
+    "message": "$PROPERTY$ értékének növelése",
     "placeholders": {
       "property": {
         "content": "$1"
@@ -51,7 +51,7 @@
     }
   },
   "resetPropertyValue": {
-    "message": "$PROPERTY$ érték visszaállítása",
+    "message": "$PROPERTY$ értékének visszaállítása",
     "placeholders": {
       "property": {
         "content": "$1"
@@ -59,7 +59,7 @@
     }
   },
   "propertiesWereEnabledDisabled": {
-    "message": "Custom text spacing properties were $STATUS$.",
+    "message": "Az egyedi szövegtérköz-tulajdonságok $STATUS$.",
     "placeholders": {
       "status": {
         "content": "$1"
@@ -67,19 +67,19 @@
     }
   },
   "enabled": {
-    "message": "enabled"
+    "message": "engedélyezve lettek"
   },
   "disabled": {
-    "message": "disabled"
+    "message": "le lettek tiltva"
   },
   "propertiesWereSetToWCAG": {
-    "message": "Custom text spacing properties were set to WCAG values."
+    "message": "Az egyedi szövegtérköz-tulajdonságok a WCAG értékekre lettek beállítva."
   },
   "propertiesWereResetToDefaults": {
-    "message": "Custom text spacing properties were reset to their default values."
+    "message": "Az egyedi szövegtérköz-tulajdonságok az alapértelmezett értékeikre lettek visszaállítva."
   },
   "propertyWasResetToDefault": {
-    "message": "Custom $PROPERTY$ was reset to its default value.",
+    "message": "Az egyedi $PROPERTY$ tulajdonság az alapértelmezett értékére lett visszaállítva.",
     "placeholders": {
       "property": {
         "content": "$1"
@@ -87,7 +87,7 @@
     }
   },
   "instructionsForUsage": {
-    "message": "How to use Text Spacing Editor?"
+    "message": "Hogyan használja a Szövegtérköz-szerkesztőt?"
   },
   "instructionsForActive": {
     "message": "Use the <strong class='hint'>Active</strong> switcher at the top to activate or deactivate your custom text spacing properties and all interactive controls of this extension. You can also use a key shortcut <code class='hint'>Ctrl+Shift+F</code> (<code class='hint'>Command+Shift+F</code> on Mac) for this (feel free to set your custom key shortcut in the extension settings of your browser). Being able to toggle custom properties is handy for testing and storing custom settings."
