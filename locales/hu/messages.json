@@ -1,35 +1,35 @@
 {
   "extensionName": {
-    "message": "Text Spacing Editor"
+    "message": "Szövegtérköz-szerkesztő"
   },
   "extensionDescription": {
-    "message": "A tool for editing text spacing properties on web pages. WCAG conformance information included."
+    "message": "Szövegtérköz-tulajdonságok szerkesztésére szolgáló eszköz a weboldalakon. WCAG megfelelőségre vonatkozó információkkal."
   },
   "toggleCommand": {
     "message": "Enable or disable custom text spacing properties.",
     "description": "A description of the keyboard shortcut in a browser."
   },
   "buttonSetWCAGValues": {
-    "message": "Set WCAG values"
+    "message": "WCAG értékek beállítása"
   },
   "buttonResetAllValues": {
-    "message": "Reset all values"
+    "message": "Összes érték visszaállítása"
   },
   "valueDefault": {
-    "message": "default",
+    "message": "alapértelmezett",
     "description": "Default text spacing properties value."
   },
   "lineHeight": {
     "message": "Sorköz"
   },
   "letterSpacing": {
-    "message": "Letter spacing"
+    "message": "Betűköz"
   },
   "wordSpacing": {
-    "message": "Word spacing"
+    "message": "Szavak közti távolság"
   },
   "paragraphSpacing": {
-    "message": "Paragraph spacing"
+    "message": "Bekezdések közti távolság"
   },
   "active": {
     "message": "Aktív"
