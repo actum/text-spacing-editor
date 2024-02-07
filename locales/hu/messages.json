@@ -90,7 +90,7 @@
     "message": "Hogyan használja a Szövegtérköz-szerkesztőt?"
   },
   "instructionsForActive": {
-    "message": "A felül lévő <strong class='hint'>Aktív</strong> kapcsoló segítségével aktiválhatja, illetve kikapcsolhatja az Ön által beállított egyedi szövegtérköz-tulajdonságokat, valamint a bővítmény interaktív vezérlőit. Ugyanehhez a <code class='hint'>Ctrl+Shift+F</code> (Mac-en a <code class='hint'>Command+Shift+F</code>) billentyűparancsot is használhatja (igény szerint egyéni billentyűparancs is megadható a böngésző bővítmény beállításaiban). Az egyéni tulajdonságok átkapcsolásának lehetősége praktikus az egyéni beállítások teszteléséhez és tárolásához."
+    "message": "A felül lévő <strong class='hint'>Aktív</strong> kapcsoló segítségével aktiválhatja, illetve kikapcsolhatja az Ön által beállított egyedi szövegtérköz-tulajdonságokat, valamint a bővítmény interaktív vezérlőit. Ugyanehhez a <code class='hint'>Ctrl+Shift+F</code> (Mac-en a <code class='hint'>Command+Shift+F</code>) billentyűkombinációt is használhatja (igény szerint egyéni billentyűkombináció is megadható a böngésző bővítmény beállításaiban). Az egyéni tulajdonságok átkapcsolásának lehetősége praktikus az egyéni beállítások teszteléséhez és tárolásához."
   },
   "instructionsForWCAGButton": {
     "message": "A <strong class='hint'>WCAG értékek beállítása</strong> gomb segítségével az összes egyéni szövegtérköz-tulajdonságot a <a href='#wcag-conformance-values'>WCAG megfeleléshez szükséges értékekre</a> állíthatja be."
@@ -108,10 +108,10 @@
     "message": "A Szövegtérköz-szerkesztő támogatja az iframe-ket (a beágyazottakat is) <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>ugyanarról a származási helyről</a>. Előfordulhat, hogy a bővítmény a webes biztonsági korlátozások miatt nem működik más weboldalak iframe-jeiben."
   },
   "instructionsForWCAGOne": {
-    "message": "You can use Text Spacing Editor to test <a href='https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html' target='_blank' rel='noopener noreferrer'>WCAG criterion <strong>1.4.12 - Text Spacing - AA</strong></a> that says the following:"
+    "message": "A Szövegtérköz-szerkesztőt a <a href='https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html' target='_blank' rel='noopener noreferrer'>WCAG <strong>1.4.12 - <span lang="en">Text Spacing</span> - AA</strong> teljesítési feltételének</a> teszteléséhez is használhatja, ami a következőt mondja ki:"
   },
   "instructionsForWCAGTwo": {
-    "message": "No loss of content or functionality occurs by setting all of these properties to the following values:"
+    "message": "A tartalom vagy a funkcionalitás nem romlik, ha az összes ilyen tulajdonságot a következő értékekre állítjuk:"
   },
   "instructionsForWCAGConformance": {
     "message": "<ul id='wcag-conformance-values'><li><em>Line height</em> to at least <em>1.5</em> times the font size.</li><li><em>Letter spacing</em> to at least <em>0.12</em> times the font size.</li><li><em>Word spacing</em> to at least <em>0.16</em> times the font size.</li><li><em>Spacing following paragraphs</em> to at least <em>2</em> times the font size.</li></ul>"
