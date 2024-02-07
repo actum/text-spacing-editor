@@ -90,7 +90,7 @@
     "message": "Hogyan használja a Szövegtérköz-szerkesztőt?"
   },
   "instructionsForActive": {
-    "message": "A felül lévő <strong class='hint'>Aktív</strong> kapcsoló segítségével aktiválhatja, illetve kikapcsolhatja az Ön által beállított egyedi szövegtérköz-tulajdonságokat, valamint a bővítmény interaktív vezérlőit. Ugyanehhez a <code class='hint'>Ctrl+Shift+F</code> (Mac-en a <code class='hint'>Command+Shift+F</code>) billentyűkombinációt is használhatja (igény szerint egyéni billentyűkombináció is megadható a böngésző bővítmény beállításaiban). Az egyéni tulajdonságok átkapcsolásának lehetősége praktikus az egyéni beállítások teszteléséhez és tárolásához."
+    "message": "A felül lévő <strong class='hint'>Aktív</strong> kapcsoló segítségével aktiválhatja, illetve kikapcsolhatja az Ön által beállított egyedi szövegtérköz-tulajdonságokat, valamint a bővítmény interaktív vezérlőit. Ugyanehhez a funkcióhoz a <code class='hint'>Ctrl+Shift+F</code> (Mac-en a <code class='hint'>Command+Shift+F</code>) billentyűkombinációt is használhatja. (Igény szerint egyéni billentyűkombináció is megadható a böngésző bővítmény beállításaiban.) Az egyéni tulajdonságok átkapcsolásának lehetősége praktikus az egyéni beállítások teszteléséhez és tárolásához."
   },
   "instructionsForWCAGButton": {
     "message": "A <strong class='hint'>WCAG értékek beállítása</strong> gomb segítségével az összes egyéni szövegtérköz-tulajdonságot a <a href='#wcag-conformance-values'>WCAG megfeleléshez szükséges értékekre</a> állíthatja be."
@@ -108,21 +108,21 @@
     "message": "A Szövegtérköz-szerkesztő támogatja az iframe-ket (a beágyazottakat is) <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>ugyanarról a származási helyről</a>. Előfordulhat, hogy a bővítmény a webes biztonsági korlátozások miatt nem működik más weboldalak iframe-jeiben."
   },
   "instructionsForWCAGOne": {
-    "message": "A Szövegtérköz-szerkesztőt a <a href='https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html' target='_blank' rel='noopener noreferrer'>WCAG <strong>1.4.12 - <span lang="en">Text Spacing</span> - AA</strong> teljesítési feltételének</a> teszteléséhez is használhatja, ami a következőt mondja ki:"
+    "message": "A Szövegtérköz-szerkesztőt a <a href='https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html' target='_blank' rel='noopener noreferrer'>WCAG <strong>1.4.12 - <span lang='en'>Text Spacing</span> - AA</strong> teljesítési feltételének</a> teszteléséhez is használhatja, ami a következőket mondja ki:"
   },
   "instructionsForWCAGTwo": {
-    "message": "A tartalom vagy a funkcionalitás nem romlik, ha az összes ilyen tulajdonságot a következő értékekre állítjuk:"
+    "message": "A tartalom vagy a funkcionalitás nem romlik, ha az összes alábbi tulajdonságot az alábbi értékekre állítjuk:"
   },
   "instructionsForWCAGConformance": {
-    "message": "<ul id='wcag-conformance-values'><li><em>Line height</em> to at least <em>1.5</em> times the font size.</li><li><em>Letter spacing</em> to at least <em>0.12</em> times the font size.</li><li><em>Word spacing</em> to at least <em>0.16</em> times the font size.</li><li><em>Spacing following paragraphs</em> to at least <em>2</em> times the font size.</li></ul>"
+    "message": "<ul id='wcag-conformance-values'><li><em>Sorköz</em> legalább a betűméret <em>1,5</em>-szerese.</li><li><em>Betűköz</em> legalább a betűméret <em>0,12</em>-szorosa.</li><li><em>Szavak közti távolság</em> legalább a betűméret <em>0,16</em>-szorosa.</li><li><em>Bekezdések közti távolság</em> legalább a betűméret <em>2</em>-szerese.</li></ul>"
   },
   "troubleshooting": {
-    "message": "Troubleshooting"
+    "message": "Hibajavítás"
   },
   "assistance": {
-    "message": "We are here to assist you! If you encounter issues, have suggestions, or want to get in touch, please <a href='https://github.com/actum/text-spacing-editor/issues/new/choose' target='_blank' rel='noreferrer noopener'>create a new issue on GitHub</a> or contact us via e-mail at <a href='mailto:devs@actumdigital.com'>devs@actumdigital.com</a>."
+    "message": "Azért vagyunk itt, hogy segítsünk Önnek! Ha problémákat észlel, javaslata van, vagy kapcsolatba szeretne lépni velünk, kérjük, <a href='https://github.com/actum/text-spacing-editor/issues/new/choose' target='_blank' rel='noreferrer noopener'>hozzon létre egy új problémát a GitHub-on</a>, vagy keressen minket a <a href='mailto:devs@actumdigital.com'>devs@actumdigital.com</a> e-mail címen."
   },
   "scriptBlockingInfo": {
-    "message": "Please be aware that while Text Spacing Editor works on most websites, it may not function on websites that have strict script-blocking policies. Some websites, for security reasons, prevent extensions like ours from running scripts to modify text spacing."
+    "message": "Felhívjuk figyelmét, hogy bár a Szövegtérköz-szerkesztő a legtöbb weboldalon működik, előfordulhat, hogy nem működik olyan weboldalakon, amelyek szigorú szkript-tiltó irányelvekkel rendelkeznek. Egyes webhelyek biztonsági okokból megakadályozzák, hogy a miénkhez hasonló bővítmények szkripteket futtassanak a szövegtérköz módosítására."
   }
 }
