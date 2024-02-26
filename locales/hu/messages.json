@@ -90,7 +90,7 @@
     "message": "Hogyan használja a Szövegtérköz-szerkesztőt?"
   },
   "instructionsForActive": {
-    "message": "A felül lévő <strong class='hint'>Aktív</strong> kapcsoló segítségével aktiválhatja, illetve kikapcsolhatja az Ön által beállított egyedi szövegtérköz-tulajdonságokat, valamint a bővítmény interaktív vezérlőit. Ugyanehhez a funkcióhoz a <code class='hint'>Ctrl+Shift+F</code> (Mac-en a <code class='hint'>Command+Shift+F</code>) billentyűkombinációt is használhatja. (Igény szerint egyéni billentyűkombináció is megadható a böngésző bővítmény beállításaiban.) Az egyéni tulajdonságok átkapcsolásának lehetősége praktikus az egyéni beállítások teszteléséhez és tárolásához."
+    "message": "A felül lévő <strong class='hint'>Aktív</strong> kapcsoló segítségével bekapcsolhatja, illetve kikapcsolhatja az Ön által beállított egyedi szövegtérköz-tulajdonságokat, valamint a bővítmény interaktív vezérlőit. Ugyanehhez a funkcióhoz a <code class='hint'>Ctrl+Shift+F</code> (Mac-en a <code class='hint'>Command+Shift+F</code>) billentyűkombinációt is használhatja. (Igény szerint egyéni billentyűkombináció is megadható a böngésző bővítmény beállításaiban.) Az egyéni tulajdonságok átkapcsolásának lehetősége praktikus az egyéni beállítások teszteléséhez és tárolásához."
   },
   "instructionsForWCAGButton": {
     "message": "A <strong class='hint'>WCAG értékek beállítása</strong> gomb segítségével az összes egyéni szövegtérköz-tulajdonságot a <a href='#wcag-conformance-values'>WCAG megfeleléshez szükséges értékekre</a> állíthatja be."
