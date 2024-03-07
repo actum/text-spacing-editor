@@ -1,0 +1,128 @@
+{
+  "extensionName": {
+    "message": "Szövegtérköz-szerkesztő"
+  },
+  "extensionDescription": {
+    "message": "A weboldalak szövegtérköz-tulajdonságainak szerkesztésére szolgáló eszköz, ami WCAG megfelelőséggel kapcsolatos információkat is tartalmaz."
+  },
+  "toggleCommand": {
+    "message": "Az egyéni szövegtérköz-tulajdonságok engedélyezése vagy letiltása.",
+    "description": "A billentyűkombináció leírása a böngészőben."
+  },
+  "buttonSetWCAGValues": {
+    "message": "WCAG értékek beállítása"
+  },
+  "buttonResetAllValues": {
+    "message": "Összes érték visszaállítása"
+  },
+  "valueDefault": {
+    "message": "alapértelmezett",
+    "description": "A szövegtérköz-tulajdonság alapértelmezett értéke."
+  },
+  "lineHeight": {
+    "message": "Sorköz"
+  },
+  "letterSpacing": {
+    "message": "Betűköz"
+  },
+  "wordSpacing": {
+    "message": "Szavak közti távolság"
+  },
+  "paragraphSpacing": {
+    "message": "Bekezdések közti távolság"
+  },
+  "active": {
+    "message": "Aktív"
+  },
+  "decreasePropertyValue": {
+    "message": "$PROPERTY$ értékének csökkentése",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "increasePropertyValue": {
+    "message": "$PROPERTY$ értékének növelése",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetPropertyValue": {
+    "message": "$PROPERTY$ értékének visszaállítása",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "propertiesWereEnabledDisabled": {
+    "message": "Az egyedi szövegtérköz-tulajdonságok $STATUS$.",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "enabled": {
+    "message": "engedélyezve lettek"
+  },
+  "disabled": {
+    "message": "le lettek tiltva"
+  },
+  "propertiesWereSetToWCAG": {
+    "message": "Az egyedi szövegtérköz-tulajdonságok a WCAG értékekre lettek beállítva."
+  },
+  "propertiesWereResetToDefaults": {
+    "message": "Az egyedi szövegtérköz-tulajdonságok az alapértelmezett értékeikre lettek visszaállítva."
+  },
+  "propertyWasResetToDefault": {
+    "message": "Az egyedi $PROPERTY$ tulajdonság az alapértelmezett értékére lett visszaállítva.",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "instructionsForUsage": {
+    "message": "Hogyan használja a Szövegtérköz-szerkesztőt?"
+  },
+  "instructionsForActive": {
+    "message": "A felül lévő <strong class='hint'>Aktív</strong> kapcsoló segítségével bekapcsolhatja, illetve kikapcsolhatja az Ön által beállított egyedi szövegtérköz-tulajdonságokat, valamint a bővítmény interaktív vezérlőit. Ugyanehhez a funkcióhoz a <code class='hint'>Ctrl+Shift+F</code> (Mac-en a <code class='hint'>Command+Shift+F</code>) billentyűkombinációt is használhatja. (Igény szerint egyéni billentyűkombináció is megadható a böngésző bővítmény beállításaiban.) Az egyéni tulajdonságok átkapcsolásának lehetősége praktikus az egyéni beállítások teszteléséhez és tárolásához."
+  },
+  "instructionsForWCAGButton": {
+    "message": "A <strong class='hint'>WCAG értékek beállítása</strong> gomb segítségével az összes egyéni szövegtérköz-tulajdonságot a <a href='#wcag-conformance-values'>WCAG megfeleléshez szükséges értékekre</a> állíthatja be."
+  },
+  "instructionsForResetAllButton": {
+    "message": "Az <strong class='hint'>Összes érték visszaállítása</strong> gomb segítségével az összes szövegtérköz-tulajdonságot visszaállíthatja az alapértelmezett értékére."
+  },
+  "instructionsForSliders": {
+    "message": "Az egyes szövegtérköz-tulajdonságok értékeinek beállításához használja a <strong class='hint'>csúszkákat</strong>, vagy a <strong class='hint'><span class='visually-hidden'>Csökkentés</span><svg class='icon icon--inline' viewBox='0 0 24 24' ><path d='M19 13H5v-2h14v2z'></path></svg></strong> és <strong class='hint'><span class='visually-hidden'>Növelés</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'></path></svg></strong> gombokat (amelyek támogatják a nyomva tartást is)."
+  },
+  "instructionsForReset": {
+    "message": "A <strong class='hint'><span class='visually-hidden'>Visszaállítás</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong> gombbal visszaállíthatja az egyes szövegtérköz-tulajdonságok értékeit."
+  },
+  "instructionsForIframe": {
+    "message": "A Szövegtérköz-szerkesztő támogatja az iframe-ket (ideértve a beágyazottakat is) <a href='https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>ugyanarról a származási helyről</a>. Előfordulhat, hogy a bővítmény a webes biztonsági korlátozások miatt nem működik más weboldalak iframe-jeiben."
+  },
+  "instructionsForWCAGOne": {
+    "message": "A Szövegtérköz-szerkesztőt a <a href='https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html' target='_blank' rel='noopener noreferrer'>WCAG <strong>1.4.12 - <span lang='en'>Text Spacing</span> - AA</strong> teljesítési feltételének</a> teszteléséhez is használhatja, ami a következőket mondja ki:"
+  },
+  "instructionsForWCAGTwo": {
+    "message": "A tartalom vagy a funkcionalitás nem romlik, ha az összes alábbi tulajdonságot az alábbi értékekre állítjuk:"
+  },
+  "instructionsForWCAGConformance": {
+    "message": "<ul id='wcag-conformance-values'><li><em>Sorköz</em> legalább a betűméret <em>1,5</em>-szerese.</li><li><em>Betűköz</em> legalább a betűméret <em>0,12</em>-szorosa.</li><li><em>Szavak közti távolság</em> legalább a betűméret <em>0,16</em>-szorosa.</li><li><em>Bekezdések közti távolság</em> legalább a betűméret <em>2</em>-szerese.</li></ul>"
+  },
+  "troubleshooting": {
+    "message": "Hibajavítás"
+  },
+  "assistance": {
+    "message": "Azért vagyunk itt, hogy segítsünk Önnek! Ha problémákat észlel, javaslata van, vagy kapcsolatba szeretne lépni velünk, kérjük, <a href='https://github.com/actum/text-spacing-editor/issues/new/choose' target='_blank' rel='noreferrer noopener'>hozzon létre egy új problémát a GitHub-on</a>, vagy keressen minket a <a href='mailto:devs@actumdigital.com'>devs@actumdigital.com</a> e-mail címen."
+  },
+  "scriptBlockingInfo": {
+    "message": "Felhívjuk figyelmét, hogy bár a Szövegtérköz-szerkesztő a legtöbb weboldalon működik, előfordulhat, hogy nem működik olyan weboldalakon, amelyek szigorú szkript-tiltó irányelvekkel rendelkeznek. Egyes webhelyek biztonsági okokból megakadályozzák, hogy a miénkhez hasonló bővítmények szkripteket futtassanak a szövegtérköz módosítására."
+  }
+}
