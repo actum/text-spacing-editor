@@ -1,1 +1,127 @@
-
+{
+  "extensionName": {
+    "message": "Text Spacing Editor"
+  },
+  "extensionDescription": {
+    "message": "ウェブページ上のテキストの間隔に関するプロパティを変更するツール。WCAGに準拠するための情報も提供。"
+  },
+  "toggleCommand": {
+    "message": "テキストのプロパティを有効または無効にする。",
+    "description": "ブラウザでのキーボードショートカットの説明"
+  },
+  "buttonSetWCAGValues": {
+    "message": "WCAGの基準値を設定"
+  },
+  "buttonResetAllValues": {
+    "message": "全ての値をリセット"
+  },
+  "valueDefault": {
+    "message": "デフォルト",
+    "description": "テキストのデフォルトのプロパティ値"
+  },
+  "lineHeight": {
+    "message": "行の間隔（行送り）"
+  },
+  "letterSpacing": {
+    "message": "文字の間隔（文字送り）"
+  },
+  "wordSpacing": {
+    "message": "単語の間隔"
+  },
+  "paragraphSpacing": {
+    "message": "段落に続く間隔"
+  },
+  "active": {
+    "message": "実行"
+  },
+  "decreasePropertyValue": {
+    "message": "$PROPERTY$ の値を下げる",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "increasePropertyValue": {
+    "message": "$PROPERTY$ の値を上げる",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetPropertyValue": {
+    "message": "$PROPERTY$ の値をリセット",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "propertiesWereEnabledDisabled": {
+    "message": "カスタムのテキストプロパティ値を $STATUS$ に設定しました。",
+    "placeholders": {
+      "status": {
+        "content": "$1"
+      }
+    }
+  },
+  "enabled": {
+    "message": "有効"
+  },
+  "disabled": {
+    "message": "無効"
+  },
+  "propertiesWereSetToWCAG": {
+    "message": "テキストのプロパティ値を WCAG の基準値に設定しました。"
+  },
+  "propertiesWereResetToDefaults": {
+    "message": "テキストのプロパティ値をデフォルトに戻しました。"
+  },
+  "propertyWasResetToDefault": {
+    "message": "$PROPERTY$ をデフォルト値に戻しました。",
+    "placeholders": {
+      "property": {
+        "content": "$1"
+      }
+    }
+  },
+  "instructionsForUsage": {
+    "message": "Text Spacing Editorの使い方は？"
+  },
+  "instructionsForActive": {
+    "message": "上部にある<strong class='hint'>実行</strong>スイッチを使用して、テキストの間隔に関するプロパティ値及びこの拡張機能のすべてのインタラクティブなコントロールを有効または無効にすることができます。また、ショートカットキー <code class='hint'>Ctrl+Shift+F</code>（Macでは <code class='hint'>Command+Shift+F</code>）を使うこともできます（ブラウザの拡張機能設定で、お好みのショートカットキーを設定することも可能）。 プロパティのカスタム設定を切り替えることができるので、チェック作業やカスタム設定の保存に便利です。"
+  },
+  "instructionsForWCAGButton": {
+    "message": "すべてのテキスト間隔のプロパティを<a href='#wcag-conformance-values'>WCAGに準拠した値</a>に設定するには、<strong class='hint'>「WCAGの基準値を設定」</strong>ボタンを使ってください。"
+  },
+  "instructionsForResetAllButton": {
+    "message": "すべてのテキストのプロパティをデフォルト値に戻すには、<strong class='hint'>「全ての値をリセット」</strong>ボタンを使います。"
+  },
+  "instructionsForSliders": {
+    "message": "それぞれのテキスト間隔プロパティの値を設定するには、<strong class='hint'>スライダー</strong>または <strong class='hint'><span class='visually-hidden'>下げる</span><svg class='icon icon--inline' viewBox='0 0 24 24' ><path d='M1 9 13H5v-2h14v2z'></path></svg></strong> と <strong class='hint'><span class='visually-hidden'>上げる</span><svg class='icon icon--inline' viewBox='0 0 24 24' ></path></svg></strong> ボタン（長押しイベントをサポート）を使ってください"
+  },
+  "instructionsForReset": {
+    "message": "それぞれのテキスト間隔プロパティの値をリセットしたいときは、（<strong class='hint'><span class='visually-hidden'>全ての値をリセット</span><svg class='icon icon--inline' viewBox='0 0 24 24'><path d='M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0 -7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z'></path></svg></strong> ボタンを押してください。"
+  },
+  "instructionsForIframe": {
+    "message": "Text Spacing Editorは、<a href='https://developer.mozilla.org/ja/docs/Web/Security/Same-origin_policy' target='_blank' rel='noopener noreferrer'>同一オリジン</a>）にあるiframe（ネストされたものも含む）をサポートしています。ただし、セキュリティに関する制約により、異なるウェブサイトからのiframe内では拡張機能が機能しない場合があります。"
+  },
+  "instructionsForWCAGOne": {
+    "message": "Text Spacing Editorを使って、 <a href='https://waic.jp/translations/WCAG21/Understanding/text-spacing.html' target='_blank' rel='noopener noreferrer'>WCAG 達成基準 <strong>1.4.12 - テキストの間隔（レベル AA）</strong></a> をチェックすることができます。"
+  },
+  "instructionsForWCAGTwo": {
+    "message": "以下をすべて設定し、かつ他のスタイルプロパティを変更しないことによって、コンテンツ又は機能の損失が生じない："
+  },
+  "instructionsForWCAGConformance": {
+    "message": "<ul id='wcag-conformance-values'><li><em>行の間隔（行送り）</em> をフォントサイズの少なくとも <em>1.5</em> 倍に設定する</li><li><em>文字の間隔（字送り）</em> をフォントサイズの少なくとも <em>0.12</em> 倍に設定する</li><li><em>単語の間隔</em> をフォントサイズの少なくとも <em>0.16</em> 倍に設定する</li><li><em>段落に続く間隔</em>をフォントサイズの少なくとも <em>2</em> 倍に設定する</li></ul>"
+  },
+  "troubleshooting": {
+    "message": "トラブルシューティング"
+  },
+  "assistance": {
+    "message": "お困りのときはお知らせください！　もし問題が発生した場合、ご意見やご要望がある場合、またはお問い合わせいただく場合は、<a href='https://github.com/actum/text-spacing-editor/issues/new/choose' target='_blank' rel='noreferrer noopener'>GitHubで新しいIssueを作成</a>していただくか、または<a href='mailto:devs@actumdigital.com'>電子メール（mailto:devs@actumdigital.com）</a>にてお問い合わせください。"
+  },
+  "scriptBlockingInfo": {
+    "message": "使用上の注意：Text Spacing Editorは、ほとんどのウェブサイトで機能しますが、厳格なスクリプトブロックのポリシーを設けているウェブサイトでは機能しない場合があります。また、セキュリティ上の理由から、一部のウェブサイトでは、テキストの間隔を変更するスクリプトを実行するこのような拡張機能をブロックしていることもあります。"  }
+}
