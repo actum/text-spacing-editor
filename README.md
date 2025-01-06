@@ -16,7 +16,7 @@
 A browser extension that allows you to set custom values for the following text spacing properties: <strong>Line height</strong>, <strong>letter spacing</strong>, <strong>word spacing</strong>, and <strong>paragraph spacing</strong>.
 You can use it also as a way of testing the <a href="https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">WCAG success criterion 1.4.12 - Text Spacing</a>.
 
-<a href="https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj"><img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/HRs9MPufa1J1h5glNhut.png" alt="Text Spacing Editor available in the Chrome Web Store" height="64"></a>
+<a href="https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj"><img src="https://developer.chrome.com/static/docs/webstore/branding/image/mPGKYBIR2uCP0ApchDXE.png" alt="Text Spacing Editor available in the Chrome Web Store" height="64"></a>
 <a href="https://addons.mozilla.org/en-US/firefox/addon/text-spacing-editor-actum/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get the Text Spacing Editor addon for Firefox" height="64"></a>
 <a href="https://microsoftedge.microsoft.com/addons/detail/nhjfhffdjhbdflekgnopingdbflmgjfb"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get Text Spacing Editor for Microsoft Edge" height="64"></a>
 <a href="https://apps.apple.com/us/app/text-spacing-editor/id6469146607"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download Text Spacing Editor on the App Store" height="64"></a>
