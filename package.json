@@ -43,7 +43,7 @@
       }
     },
     "host_permissions": [
-      "https://*/*"
+      "<all_urls>"
     ],
     "permissions": [
       "scripting",
