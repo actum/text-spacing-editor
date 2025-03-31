@@ -1,22 +1,22 @@
 import { useState } from "react"
 
 import { DEFAULT_VALUES, WCAG_VALUES } from "~helpers/constants"
-import { useCustomStorage } from "~helpers/useCustomStorage"
-import { updatePageCSS } from "~helpers/updatePageCSS"
 import highContrastMode from "~helpers/highContrastMode"
 import t from "~helpers/t"
+import { updatePageCSS } from "~helpers/updatePageCSS"
+import { useCustomStorage } from "~helpers/useCustomStorage"
 
 import AlertMessage from "./AlertMessage"
-import Instructions from "./Instructions"
-import Switch from "./Controls/Switch"
 import Buttons from "./Controls/Buttons"
 import Sliders from "./Controls/Sliders"
+import Switch from "./Controls/Switch"
+import Instructions from "./Instructions"
 import Troubleshooting from "./Troubleshooting"
 
 import "./style.css"
 
 if (highContrastMode()) {
-  document.documentElement.classList.add('high-contrast')
+  document.documentElement.classList.add("high-contrast")
 }
 
 const IndexPopup = () => {
@@ -36,8 +36,11 @@ const IndexPopup = () => {
     const payload = enabled ? null : storageStyles
     updatePageCSS(insertedCSSRef, payload)
     setEnabled((prev: boolean) => !prev)
-    setMessage(t("propertiesWereEnabledDisabled", [!enabled ? t("enabled") : t("disabled")]))
-
+    setMessage(
+      t("propertiesWereEnabledDisabled", [
+        !enabled ? t("enabled") : t("disabled")
+      ])
+    )
   }
   const handleSetWCAG = () => {
     updatePageCSS(insertedCSSRef, WCAG_VALUES)
@@ -64,9 +67,9 @@ const IndexPopup = () => {
   return (
     <main>
       <div className="header">
-        <h1>{t('extensionName')}</h1>
+        <h1>{t("extensionName")}</h1>
 
-        <Switch enabled={enabled} handleChange={handleToggle}/>
+        <Switch enabled={enabled} handleChange={handleToggle} />
       </div>
 
       <Instructions />
