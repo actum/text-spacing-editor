@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
-    "build:all": " rm -rf build/* && yarn build --target=chrome-mv3 && yarn build --target=firefox-mv3 && yarn build --target=edge-mv3 && yarn build --target=safari-mv3 && chmod +x pack.sh && ./pack.sh",
+    "build:all": " rm -rf build/* && pnpm build --target=chrome-mv3 && pnpm build --target=firefox-mv3 && pnpm build --target=edge-mv3 && pnpm build --target=safari-mv3 && chmod +x pack.sh && ./pack.sh",
     "package": "plasmo package"
   },
   "dependencies": {

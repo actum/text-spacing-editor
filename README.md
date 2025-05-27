@@ -41,9 +41,7 @@ This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
+pnpm run dev
 ```
 
 Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
@@ -72,9 +70,7 @@ web-ext run -t firefox-android  --android-device=DEVICE_NAME #use device name fr
 Run the following:
 
 ```bash
-npm run build:all
-# or
-yarn build:all
+pnpm run build:all
 ```
 
 This should create a production bundle for Chrome, Firefox, Safari, Edge and Opera in a `build/` folder. You can then publish zip archives
